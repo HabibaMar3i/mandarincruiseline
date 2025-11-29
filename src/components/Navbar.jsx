@@ -1,52 +1,80 @@
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@heroui/react";
-export const AcmeLogo = () => {
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@heroui/react";
+import { Link as RouterLink } from "react-router-dom";
+import { useState } from "react";
+
+const MainLogo = () => {
   return (
-    <svg fill="none" height="36" viewBox="0 0 32 32" width="36">
-      <path
-        clipRule="evenodd"
-        d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-        fill="currentColor"
-        fillRule="evenodd"
-      />
-    </svg>
+    <img src="/main-logo.svg" alt="Mandarin Cruise Line" className="h-12 w-12" />
   );
 };
 
 export default function NavbarComponent() {
-    return (
-        <Navbar>
-      <NavbarBrand>
-        <AcmeLogo />
-        <p className="font-bold text-inherit">ACME</p>
-      </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link aria-current="page" href="#">
-            Customers
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
-          </Link>
-        </NavbarItem>
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false);
+  };
+  
+  const menuItems = [
+    { name: "Home", path: "/" },
+    { name: "About Us", path: "/about-us" },
+    { name: "Royal Princess", path: "/royal-princess" },
+    { name: "Grand Mandarin", path: "/grand-mandarin" },
+    { name: "Contact Us", path: "/contact-us" }
+  ];
+
+  return (
+    <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} className="bg-white py-4 px-6" maxWidth="full">
+      <NavbarContent justify="start">
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="lg:hidden text-[#a1978a]"
+        />
+        <NavbarBrand className="mr-8">
+          <MainLogo />
+          <p className="font-bold font-georgia ml-3 text-xl text-[#a1978a]">Mandarin Cruise Line</p>
+        </NavbarBrand>
       </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
+
+      <NavbarContent className="hidden lg:flex gap-8 font-hero flex-1" justify="center">
+        {menuItems.map((item) => (
+          <NavbarItem key={item.name}>
+            <Link as={RouterLink} to={item.path} className="hover:opacity-70 text-lg font-medium text-[#a1978a]">
+              {item.name}
+            </Link>
+          </NavbarItem>
+        ))}
+      </NavbarContent>
+      
+      <NavbarContent className="hidden lg:flex" justify="end">
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
+          <Button as={RouterLink} to="/contact-us" className="font-hero font-semibold text-white px-6 py-2 text-lg bg-[#a1978a]" variant="flat">
+            Book Now
           </Button>
         </NavbarItem>
       </NavbarContent>
+      
+      <NavbarMenu className="bg-white pt-6">
+        {menuItems.map((item, index) => (
+          <NavbarMenuItem key={`${item.name}-${index}`}>
+            <Link
+              as={RouterLink}
+              to={item.path}
+              className="w-full font-hero text-lg py-2 text-[#a1978a]"
+              size="lg"
+              onClick={handleMenuItemClick}
+            >
+              {item.name}
+            </Link>
+          </NavbarMenuItem>
+        ))}
+        <NavbarMenuItem>
+          <Button as={RouterLink} to="/contact-us" className="font-hero font-semibold text-white w-full mt-4 py-3 text-lg bg-[#a1978a]" variant="flat" onClick={handleMenuItemClick}>
+            Book Now
+          </Button>
+        </NavbarMenuItem>
+      </NavbarMenu>
     </Navbar>
-    )
+  );
 }
 
