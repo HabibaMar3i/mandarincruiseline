@@ -1,0 +1,57 @@
+import { useState, useEffect } from 'react';
+
+const HeroSlideshow = () => {
+    const [currentSlide, setCurrentSlide] = useState(0);
+    
+    const slides = [
+        "/GrandMandarin/01.webp",
+        "/RoyalPrincess/Royal Princess (1).webp",
+        "/GrandMandarin/02.webp",
+        "/RoyalPrincess/Royal Princess (2).webp",
+        "/GrandMandarin/03.webp",
+    ];
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrentSlide((prev) => (prev + 1) % slides.length);
+        }, 4000);
+        return () => clearInterval(timer);
+    }, [slides.length]);
+
+    return (
+        <div className="relative h-screen overflow-hidden w-full">
+            {slides.map((slide, index) => (
+                <div
+                    key={index}
+                    className={`absolute inset-0 transition-opacity duration-700 ${
+                        index === currentSlide ? 'opacity-100' : 'opacity-0'
+                    }`}
+                >
+                    <img 
+                        src={slide} 
+                        alt={`Slide ${index + 1}`}
+                        className="w-full h-full object-cover object-center"
+                        loading={index === 0 ? 'eager' : 'lazy'}
+                    />
+                    <div className="absolute inset-0 bg-black/40"></div>
+                </div>
+            ))}
+            
+            <div className="relative z-10 flex items-center justify-center h-full px-4">
+                <div className="text-center text-white max-w-4xl mx-auto">
+                    <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 font-georgia leading-tight text-[#F2ECE7]">
+                        Mandarin Cruise Line
+                    </h1>
+                    <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero text-[#EFE8E1]">
+                        Five-Star Deluxe Floating Hotel Experience
+                    </p>
+                    <button className="mt-8 bg-[#a1978a] text-white px-8 py-3 text-lg font-semibold rounded hover:opacity-90">
+                        Explore Our Fleet
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default HeroSlideshow;
