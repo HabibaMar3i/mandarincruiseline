@@ -10,7 +10,9 @@ import 'aos/dist/aos.css'
 AOS.init({
   duration: 800,
   once: true,
-  offset: 100
+  offset: 100,
+  mirror: false,
+  anchorPlacement: 'top-bottom'
 })
 
 createRoot(document.getElementById('root')).render(
