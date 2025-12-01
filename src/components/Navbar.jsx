@@ -19,8 +19,7 @@ export default function NavbarComponent() {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about-us" },
     { name: "Royal Princess", path: "/royal-princess" },
-    { name: "Grand Mandarin", path: "/grand-mandarin" },
-    { name: "Contact Us", path: "/contact-us" }
+    { name: "Grand Mandarin", path: "/grand-mandarin" }
   ];
 
   return (
