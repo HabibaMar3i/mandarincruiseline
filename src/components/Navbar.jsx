@@ -48,7 +48,7 @@ export default function NavbarComponent() {
       
       <NavbarContent className="hidden lg:flex" justify="end">
         <NavbarItem>
-          <Button as={RouterLink} to="/contact-us" className="font-hero font-semibold text-white px-6 py-2 text-lg bg-[#a1978a]" variant="flat">
+          <Button as={RouterLink} to="/contact-us" className="bg-[#a1978a] text-white px-8 py-3 rounded-full font-semibold font-georgia hover:opacity-90 transition-all duration-300" variant="flat">
             Book Now
           </Button>
         </NavbarItem>
@@ -69,7 +69,7 @@ export default function NavbarComponent() {
           </NavbarMenuItem>
         ))}
         <NavbarMenuItem>
-          <Button as={RouterLink} to="/contact-us" className="font-hero font-semibold text-white w-full mt-4 py-3 text-lg bg-[#a1978a]" variant="flat" onClick={handleMenuItemClick}>
+          <Button as={RouterLink} to="/contact-us" className="bg-[#a1978a] text-white px-8 py-3 rounded-full font-semibold font-georgia hover:opacity-90 transition-all duration-300 w-full mt-4" variant="flat" onClick={handleMenuItemClick}>
             Book Now
           </Button>
         </NavbarMenuItem>
