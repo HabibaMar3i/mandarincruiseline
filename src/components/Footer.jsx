@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Logo and Company */}
-                    <div className="md:col-span-1">
+                    <div className="md:col-span-1" data-aos="fade-up">
                         <div className="flex items-center mb-4">
                             <img src="/logo-24.svg" alt="Mandarin Cruise Line" className="h-8 w-8 mr-3" />
                             <h3 className="text-xl font-bold font-georgia">Mandarin Cruise Line</h3>
@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
 
                     {/* Navigation Links */}
-                    <div className="md:col-span-1">
+                    <div className="md:col-span-1" data-aos="fade-up" data-aos-delay="100">
                         <h4 className="text-lg font-semibold font-georgia mb-4">Navigation</h4>
                         <ul className="space-y-2 font-hero">
                             <li><Link to="/" className="hover:opacity-70 transition-opacity">Home</Link></li>
@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
 
                     {/* Contact Info */}
-                    <div className="md:col-span-1">
+                    <div className="md:col-span-1" data-aos="fade-up" data-aos-delay="200">
                         <h4 className="text-lg font-semibold font-georgia mb-4">Contact</h4>
                         <div className="space-y-3 font-hero">
                             <div className="flex items-center">
@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
 
                     {/* Social Media */}
-                    <div className="md:col-span-1">
+                    <div className="md:col-span-1" data-aos="fade-up" data-aos-delay="300">
                         <h4 className="text-lg font-semibold font-georgia mb-4">Follow Us</h4>
                         <div className="flex space-x-4">
                             <a href="#" className="hover:opacity-70 transition-opacity">
