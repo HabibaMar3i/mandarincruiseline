@@ -24,7 +24,7 @@ export default function NavbarComponent() {
   ];
 
   return (
-    <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} className="bg-white py-4 px-6" maxWidth="full">
+    <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} className="bg-[#F2ECE7] py-2 px-6" maxWidth="full">
       <NavbarContent justify="start">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -54,7 +54,7 @@ export default function NavbarComponent() {
         </NavbarItem>
       </NavbarContent>
       
-      <NavbarMenu className="bg-white pt-6">
+      <NavbarMenu className="bg-[#F2ECE7] pt-6">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item.name}-${index}`}>
             <Link
