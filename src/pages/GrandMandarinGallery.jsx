@@ -86,15 +86,16 @@ export default function GrandMandarinGallery() {
                         </a>
                         <button 
                             onClick={() => {
+                                const pdfUrl = `${window.location.origin}/Grand_Mandarin_Photos_PDF.pdf`;
                                 if (navigator.share) {
                                     navigator.share({
-                                        title: 'Grand Mandarin Gallery',
-                                        text: 'Check out the Grand Mandarin luxury cruise gallery',
-                                        url: window.location.href
+                                        title: 'Grand Mandarin Gallery PDF',
+                                        text: 'Download Grand Mandarin luxury cruise gallery',
+                                        url: pdfUrl
                                     });
                                 } else {
-                                    navigator.clipboard.writeText(window.location.href);
-                                    alert('Link copied to clipboard!');
+                                    navigator.clipboard.writeText(pdfUrl);
+                                    alert('PDF link copied to clipboard!');
                                 }
                             }}
                             className="bg-white text-[#a1978a] border-2 border-[#a1978a] px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:bg-[#a1978a] hover:text-white transition-all duration-300 inline-flex items-center"

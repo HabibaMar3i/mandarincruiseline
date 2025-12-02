@@ -82,15 +82,16 @@ export default function RoyalPrincessGallery() {
                         </a>
                         <button 
                             onClick={() => {
+                                const pdfUrl = `${window.location.origin}/Royal_Princess_Photos_PDF.pdf`;
                                 if (navigator.share) {
                                     navigator.share({
-                                        title: 'Royal Princess Gallery',
-                                        text: 'Check out the Royal Princess luxury cruise gallery',
-                                        url: window.location.href
+                                        title: 'Royal Princess Gallery PDF',
+                                        text: 'Download Royal Princess luxury cruise gallery',
+                                        url: pdfUrl
                                     });
                                 } else {
-                                    navigator.clipboard.writeText(window.location.href);
-                                    alert('Link copied to clipboard!');
+                                    navigator.clipboard.writeText(pdfUrl);
+                                    alert('PDF link copied to clipboard!');
                                 }
                             }}
                             className="bg-white text-[#a1978a] border-2 border-[#a1978a] px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:bg-[#a1978a] hover:text-white transition-all duration-300 inline-flex items-center"
