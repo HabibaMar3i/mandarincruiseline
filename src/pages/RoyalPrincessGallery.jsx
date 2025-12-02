@@ -62,6 +62,45 @@ export default function RoyalPrincessGallery() {
                 </div>
             </section>
 
+            {/* PDF Downloads Section */}
+            <section className="py-16 px-6 bg-white">
+                <div className="max-w-4xl mx-auto text-center">
+                    <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#a1978a] mb-8" data-aos="fade-up">
+                        Download Gallery
+                    </h2>
+                    <p className="text-lg font-hero text-[#919090] mb-8" data-aos="fade-up" data-aos-delay="200">
+                        Download or share our Royal Princess photo collection
+                    </p>
+                    
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
+                        <a 
+                            href="/Royal-Princess-Gallery.pdf" 
+                            download="Royal-Princess-Gallery.pdf"
+                            className="bg-[#a1978a] text-white px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-flex items-center"
+                        >
+                            <i className="fas fa-download mr-2"></i>Download PDF
+                        </a>
+                        <button 
+                            onClick={() => {
+                                if (navigator.share) {
+                                    navigator.share({
+                                        title: 'Royal Princess Gallery',
+                                        text: 'Check out the Royal Princess luxury cruise gallery',
+                                        url: window.location.href
+                                    });
+                                } else {
+                                    navigator.clipboard.writeText(window.location.href);
+                                    alert('Link copied to clipboard!');
+                                }
+                            }}
+                            className="bg-white text-[#a1978a] border-2 border-[#a1978a] px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:bg-[#a1978a] hover:text-white transition-all duration-300 inline-flex items-center"
+                        >
+                            <i className="fas fa-share mr-2"></i>Share Gallery
+                        </button>
+                    </div>
+                </div>
+            </section>
+
             {/* Main Carousel */}
             <section className="py-16 px-6">
                 <div className="max-w-6xl mx-auto">
