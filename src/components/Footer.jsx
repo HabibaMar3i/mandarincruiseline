@@ -8,7 +8,6 @@ const Footer = () => {
                     {/* Logo and Company */}
                     <div className="md:col-span-1" data-aos="fade-up">
                         <div className="flex items-center mb-4">
-                            <img src="/logo-24.svg" alt="Mandarin Cruise Line" className="h-8 w-8 mr-3" />
                             <h3 className="text-xl font-bold font-georgia">Mandarin Cruise Line</h3>
                         </div>
                         <p className="text-sm font-hero opacity-90">

@@ -78,8 +78,8 @@ export default function GrandMandarinGallery() {
                     
                     <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
                         <a 
-                            href="/Grand-Mandarin-Gallery.pdf" 
-                            download="Grand-Mandarin-Gallery.pdf"
+                            href="/Grand_Mandarin_Photos_PDF.pdf" 
+                            download="Grand_Mandarin_Photos_PDF.pdf"
                             className="bg-[#a1978a] text-white px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-flex items-center"
                         >
                             <i className="fas fa-download mr-2"></i>Download PDF
@@ -105,8 +105,39 @@ export default function GrandMandarinGallery() {
                 </div>
             </section>
 
-            {/* Main Carousel */}
+            {/* Video Gallery Section */}
             <section className="py-16 px-6">
+                <div className="max-w-6xl mx-auto">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#a1978a] mb-8">
+                            Video Gallery
+                        </h2>
+                        <p className="text-lg font-hero text-[#919090]">
+                            Experience Grand Mandarin in motion
+                        </p>
+                    </div>
+                    
+                    <div className="max-w-md mx-auto">
+                        <div className="relative group">
+                            <div className="relative bg-gray-200 rounded-xl overflow-hidden shadow-lg">
+                                <iframe 
+                                    className="w-full aspect-video"
+                                    src="https://www.youtube.com/embed/T7AJN_3cZSU?si=CTWw8cQcO6z6ovwu" 
+                                    title="YouTube video player" 
+                                    frameBorder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerPolicy="strict-origin-when-cross-origin" 
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                            <h3 className="text-lg font-semibold font-georgia text-[#a1978a] mt-4 text-center">Grand Mandarin Experience</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Main Carousel */}
+            <section className="py-16 px-6 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <div className="relative">
                         {/* Main Image */}
