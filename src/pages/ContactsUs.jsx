@@ -50,8 +50,9 @@ export default function ContactUs() {
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#a1978a] mb-4">Call Us</h3>
                             <p className="font-hero text-[#919090] mb-4">
-                                +202 5757215<br />
-                                (14 Lines Available)
+                                (00202)-2575-7215<br />
+                                +202 23950693<br />
+                                +202 23950583
                             </p>
                             <p className="text-sm font-hero text-[#a1978a] font-semibold">Available 24/7</p>
                         </div>
@@ -63,8 +64,7 @@ export default function ContactUs() {
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#a1978a] mb-4">Email Us</h3>
                             <p className="font-hero text-[#919090] mb-4">
-                                info@mandarincruise.com<br />
-                                ntscairo@ntsegypt.com
+                                info@mandarincruiseline.com<br />
                             </p>
                             <p className="text-sm font-hero text-[#a1978a] font-semibold">Quick Response</p>
                         </div>
@@ -76,8 +76,8 @@ export default function ContactUs() {
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#a1978a] mb-4">Visit Us</h3>
                             <p className="font-hero text-[#919090] mb-4">
-                                10 Talaat Harb St.<br />
-                                Evergreen Tower, Cairo
+                                22, Kasr El Nil St.<br />
+                                Cairo, Egypt
                             </p>
                             <p className="text-sm font-hero text-[#a1978a] font-semibold">Egypt</p>
                         </div>
@@ -173,7 +173,6 @@ export default function ContactUs() {
                                         </h3>
                                         <p className="font-hero opacity-90">
                                             info@mandarincruise.com<br />
-                                            ntscairo@ntsegypt.com
                                         </p>
                                     </div>
                                     
@@ -183,7 +182,6 @@ export default function ContactUs() {
                                         </h3>
                                         <p className="font-hero opacity-90">
                                             www.mandarincruise.com<br />
-                                            www.ntsegypt.com
                                         </p>
                                     </div>
                                 </div>
