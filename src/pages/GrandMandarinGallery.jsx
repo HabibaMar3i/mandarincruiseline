@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 
 export default function GrandMandarinGallery() {
     const [currentImage, setCurrentImage] = useState(0);
@@ -35,6 +35,13 @@ export default function GrandMandarinGallery() {
     const goToImage = useCallback((index) => {
         setCurrentImage(index);
     }, []);
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrentImage((prev) => (prev + 1) % images.length);
+        }, 3000);
+        return () => clearInterval(timer);
+    }, [images.length]);
 
     return (
         <div>
@@ -92,28 +99,6 @@ export default function GrandMandarinGallery() {
                             <div className="absolute bottom-4 left-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
                                 {currentImage + 1} / {images.length}
                             </div>
-                        </div>
-
-                        {/* Thumbnail Navigation */}
-                        <div className="mt-6 grid grid-cols-4 md:grid-cols-9 gap-2 max-h-32 overflow-y-auto">
-                            {images.map((image, index) => (
-                                <button
-                                    key={index}
-                                    onClick={() => goToImage(index)}
-                                    className={`relative h-16 md:h-20 rounded-lg overflow-hidden transition-all ${
-                                        index === currentImage 
-                                            ? 'ring-4 ring-[#a1978a] opacity-100' 
-                                            : 'opacity-70 hover:opacity-100'
-                                    }`}
-                                >
-                                    <img 
-                                        src={image} 
-                                        alt={`Thumbnail ${index + 1}`}
-                                        className="w-full h-full object-cover"
-                                        loading="lazy"
-                                    />
-                                </button>
-                            ))}
                         </div>
                     </div>
                 </div>
