@@ -32,17 +32,21 @@ const Footer = () => {
                     <div className="md:col-span-1" data-aos="fade-up" data-aos-delay="200">
                         <h4 className="text-lg font-semibold font-georgia mb-4">Contact</h4>
                         <div className="space-y-3 font-hero">
-                            <div className="flex items-center">
-                                <i className="fas fa-phone mr-3"></i>
-                                <span>+20 123 456 7890</span>
+                            <div className="flex items-start">
+                                <i className="fas fa-phone mr-3 mt-1"></i>
+                                <div>
+                                    <div>(00202)-2575-7215</div>
+                                    <div>+202 23950693</div>
+                                    <div>+202 23950583</div>
+                                </div>
                             </div>
                             <div className="flex items-center">
                                 <i className="fas fa-envelope mr-3"></i>
-                                <span>info@mandarincruise.com</span>
+                                <span>info@mandarincruiseline.com</span>
                             </div>
-                            <div className="flex items-center">
-                                <i className="fas fa-map-marker-alt mr-3"></i>
-                                <span>Luxor, Egypt</span>
+                            <div className="flex items-start">
+                                <i className="fas fa-map-marker-alt mr-3 mt-1"></i>
+                                <span>22, Kasr El Nil St., Cairo, Egypt</span>
                             </div>
                         </div>
                     </div>
