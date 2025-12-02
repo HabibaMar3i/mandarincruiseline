@@ -4,17 +4,20 @@ const HeroSlideshow = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     
     const slides = [
-        "/GrandMandarin/01.webp",
+        "/GrandMandarin/04.webp",
         "/RoyalPrincess/Royal Princess (1).webp",
         "/GrandMandarin/02.webp",
         "/RoyalPrincess/Royal Princess (2).webp",
-        "/GrandMandarin/03.webp",
+        "/GrandMandarin/06.webp",
+        "/RoyalPrincess/Royal Princess (5).webp",
+        "/GrandMandarin/10.webp",
+        "/RoyalPrincess/Royal Princess (8).webp"
     ];
 
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 4000);
+        }, 2000);
         return () => clearInterval(timer);
     }, [slides.length]);
 
