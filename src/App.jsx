@@ -7,6 +7,8 @@ import ContactUs from './pages/ContactsUs';
 import NotFound from './pages/NotFound';
 import RoyalPrincess from './pages/RoyalPrincess';
 import GrandMandarin from './pages/GrandMandarin';
+import RoyalPrincessGallery from './pages/RoyalPrincessGallery';
+import GrandMandarinGallery from './pages/GrandMandarinGallery';
 
 function App() {
   const routes = createBrowserRouter([
@@ -16,6 +18,8 @@ function App() {
       {path: '/contact-us', element: <ContactUs/>},
       {path: '/royal-princess', element: <RoyalPrincess/>},
       {path: '/grand-mandarin', element: <GrandMandarin/>},
+      {path: '/royal-princess-gallery', element: <RoyalPrincessGallery/>},
+      {path: '/grand-mandarin-gallery', element: <GrandMandarinGallery/>},
       {path: '*', element: <NotFound/>}
     ]}
   ])

@@ -1,4 +1,4 @@
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@heroui/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button, Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@heroui/react";
 import { Link as RouterLink } from "react-router-dom";
 import { useState } from "react";
 
@@ -22,6 +22,11 @@ export default function NavbarComponent() {
     { name: "Grand Mandarin", path: "/grand-mandarin" }
   ];
 
+  const galleryItems = [
+    { name: "Royal Princess Gallery", path: "/royal-princess-gallery" },
+    { name: "Grand Mandarin Gallery", path: "/grand-mandarin-gallery" }
+  ];
+
   return (
     <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} className="bg-[#F2ECE7] py-2 px-6" maxWidth="full">
       <NavbarContent justify="start">
@@ -43,6 +48,24 @@ export default function NavbarComponent() {
             </Link>
           </NavbarItem>
         ))}
+        <NavbarItem>
+          <Dropdown>
+            <DropdownTrigger>
+              <Button variant="light" className="hover:opacity-70 text-lg font-medium text-[#a1978a] font-hero">
+                Gallery <i className="fas fa-chevron-down ml-1"></i>
+              </Button>
+            </DropdownTrigger>
+            <DropdownMenu aria-label="Gallery options">
+              {galleryItems.map((item) => (
+                <DropdownItem key={item.name}>
+                  <Link as={RouterLink} to={item.path} className="text-[#a1978a] font-hero">
+                    {item.name}
+                  </Link>
+                </DropdownItem>
+              ))}
+            </DropdownMenu>
+          </Dropdown>
+        </NavbarItem>
       </NavbarContent>
       
       <NavbarContent className="hidden lg:flex" justify="end">
@@ -56,6 +79,19 @@ export default function NavbarComponent() {
       <NavbarMenu className="bg-[#F2ECE7] pt-6">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item.name}-${index}`}>
+            <Link
+              as={RouterLink}
+              to={item.path}
+              className="w-full font-hero text-lg py-2 text-[#a1978a]"
+              size="lg"
+              onClick={handleMenuItemClick}
+            >
+              {item.name}
+            </Link>
+          </NavbarMenuItem>
+        ))}
+        {galleryItems.map((item, index) => (
+          <NavbarMenuItem key={`gallery-${item.name}-${index}`}>
             <Link
               as={RouterLink}
               to={item.path}
