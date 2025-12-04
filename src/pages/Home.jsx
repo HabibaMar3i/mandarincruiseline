@@ -45,12 +45,20 @@ export default function Home() {
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Grand Mandarin</h3>
                                 <p className="text-[#919090] font-hero mb-6">62 Junior Suites (21 sqm) + 2 Royal Suites "Nefertiti" & "Cleopatra" (30 sqm) with panoramic Nile views</p>
-                                <Link 
-                                    to="/grand-mandarin"
-                                    className="bg-[#5A5248] text-white px-8 py-3 rounded-full font-semibold font-georgia hover:opacity-90 transition-all duration-300 inline-block"
-                                >
-                                    Explore Grand Mandarin
-                                </Link>
+                                <div className="flex flex-col sm:flex-row gap-3">
+                                    <Link 
+                                        to="/grand-mandarin"
+                                        className="bg-[#5A5248] text-white px-6 py-2 rounded-full font-semibold font-georgia hover:opacity-90 transition-all duration-300 inline-block text-center"
+                                    >
+                                        Explore Grand Mandarin
+                                    </Link>
+                                    <Link 
+                                        to="/grand-mandarin-gallery"
+                                        className="bg-[#eb5515] text-white px-6 py-2 rounded-full font-semibold font-georgia hover:opacity-90 transition-all duration-300 inline-block text-center"
+                                    >
+                                        View Gallery
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                         
@@ -62,12 +70,20 @@ export default function Home() {
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Royal Princess</h3>
                                 <p className="text-[#919090] font-hero mb-6">57 Cabins (22 sqm) + 2 Royal Suites (30 sqm) with private balconies and marble bathrooms featuring jacuzzi</p>
-                                <Link 
-                                    to="/royal-princess"
-                                    className="bg-[#5A5248] text-white px-8 py-3 rounded-full font-semibold font-georgia hover:opacity-90 transition-all duration-300 inline-block"
-                                >
-                                    Explore Royal Princess
-                                </Link>
+                                <div className="flex flex-col sm:flex-row gap-3">
+                                    <Link 
+                                        to="/royal-princess"
+                                        className="bg-[#5A5248] text-white px-6 py-2 rounded-full font-semibold font-georgia hover:opacity-90 transition-all duration-300 inline-block text-center"
+                                    >
+                                        Explore Royal Princess
+                                    </Link>
+                                    <Link 
+                                        to="/royal-princess-gallery"
+                                        className="bg-[#eb5515] text-white px-6 py-2 rounded-full font-semibold font-georgia hover:opacity-90 transition-all duration-300 inline-block text-center"
+                                    >
+                                        View Gallery
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
