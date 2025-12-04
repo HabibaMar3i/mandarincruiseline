@@ -15,7 +15,7 @@ export default function AboutUs() {
                         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 font-georgia leading-tight" data-aos="fade-up">
                             About Us
                         </h1>
-                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero mb-8" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-times mb-8" data-aos="fade-up" data-aos-delay="200">
                             Discover the story behind our luxury Nile cruise experience
                         </p>
                     </div>
@@ -85,7 +85,7 @@ export default function AboutUs() {
                     <h2 className="text-4xl md:text-6xl font-bold font-georgia text-white mb-6" data-aos="fade-up">
                         Experience Our Ships
                     </h2>
-                    <p className="text-xl md:text-2xl font-hero text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-xl md:text-2xl font-times text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
                         While our story unfolds, explore our magnificent floating hotels
                     </p>
                     

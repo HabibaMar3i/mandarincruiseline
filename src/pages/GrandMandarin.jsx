@@ -17,7 +17,7 @@ export default function GrandMandarin() {
                         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 font-georgia leading-tight" data-aos="fade-up">
                             Grand Mandarin
                         </h1>
-                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero mb-8" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-times mb-8" data-aos="fade-up" data-aos-delay="200">
                             5-Star Superior Deluxe Floating Hotel
                         </p>
                         <Link 
@@ -38,7 +38,7 @@ export default function GrandMandarin() {
                         <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
                             Superior Deluxe Experience
                         </h2>
-                        <p className="text-lg md:text-xl font-hero text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg md:text-xl font-times text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
                             M/S Grand Mandarin is a 5-star superior deluxe floating hotel, built and constructed under the supervision of ABS (American Bureau of Shipping) and as per its regulations. Built in 2000 with state-of-the-art facilities.
                         </p>
                     </div>
@@ -49,7 +49,7 @@ export default function GrandMandarin() {
                         </div>
                         <div data-aos="fade-up" data-aos-delay="200">
                             <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-6">Technical Specifications</h3>
-                            <div className="space-y-4 font-hero text-[#919090]">
+                            <div className="space-y-4 font-times text-[#919090]">
                                 <div className="flex justify-between border-b pb-2">
                                     <span className="font-semibold">Construction Year:</span>
                                     <span>2000</span>
@@ -105,8 +105,8 @@ export default function GrandMandarin() {
                             </div>
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Junior Suites</h3>
-                                <p className="text-[#919090] font-hero mb-4">62 Junior Suites (21 sqm each)</p>
-                                <ul className="space-y-2 text-[#919090] font-hero">
+                                <p className="text-[#919090] font-times mb-4">62 Junior Suites (21 sqm each)</p>
+                                <ul className="space-y-2 text-[#919090] font-times">
                                     <li>• Flat screen TV & internal telephone</li>
                                     <li>• Air conditioning & safe box</li>
                                     <li>• Minibar, tea & coffee tray</li>
@@ -125,8 +125,8 @@ export default function GrandMandarin() {
                             </div>
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Royal Suites</h3>
-                                <p className="text-[#919090] font-hero mb-4">2 Royal Suites: "Nefertiti" & "Cleopatra" (30 sqm each)</p>
-                                <ul className="space-y-2 text-[#919090] font-hero">
+                                <p className="text-[#919090] font-times mb-4">2 Royal Suites: "Nefertiti" & "Cleopatra" (30 sqm each)</p>
+                                <ul className="space-y-2 text-[#919090] font-times">
                                     <li>• Flat screen TV, phone, AC, safe</li>
                                     <li>• Minibar & premium amenities</li>
                                     <li>• Large shower cabin with rain shower</li>
@@ -155,7 +155,7 @@ export default function GrandMandarin() {
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">Sun Deck (E)</h3>
-                                    <ul className="space-y-2 font-hero">
+                                    <ul className="space-y-2 font-times">
                                         <li>• Sun loungers & shaded areas</li>
                                         <li>• Swimming pool with state-of-the-art jacuzzi</li>
                                         <li>• Open-air gym</li>
@@ -172,7 +172,7 @@ export default function GrandMandarin() {
                                 <img src="/GrandMandarin/06.webp" alt="Tokyo Bar" className="rounded-lg" />
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Tokyo Bar Deck (D)</h3>
-                                    <ul className="space-y-2 font-hero text-[#919090]">
+                                    <ul className="space-y-2 font-times text-[#919090]">
                                         <li>• Vibrant Tokyo Bar with curated cocktails</li>
                                         <li>• Weekly Oriental Party venue</li>
                                         <li>• Game room with billiard table</li>
@@ -187,7 +187,7 @@ export default function GrandMandarin() {
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">The Mezzanine (C)</h3>
-                                    <ul className="space-y-2 font-hero">
+                                    <ul className="space-y-2 font-times">
                                         <li>• Additional lounges & seating areas</li>
                                         <li>• Terraced view of the Nile</li>
                                         <li>• Jewelry inspired by pharaonic heritage</li>
@@ -204,7 +204,7 @@ export default function GrandMandarin() {
                                 <img src="/GrandMandarin/08.webp" alt="Reception" className="rounded-lg" />
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">The Reception (B)</h3>
-                                    <ul className="space-y-2 font-hero text-[#919090]">
+                                    <ul className="space-y-2 font-times text-[#919090]">
                                         <li>• Check-in counter & luxurious entrance</li>
                                         <li>• Grand piano for entertainment</li>
                                         <li>• Elegant staircase design</li>
@@ -219,7 +219,7 @@ export default function GrandMandarin() {
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">The Gallery (A)</h3>
-                                    <ul className="space-y-2 font-hero">
+                                    <ul className="space-y-2 font-times">
                                         <li>• Main restaurant with international dishes</li>
                                         <li>• Seafood night with fresh selections</li>
                                         <li>• Open buffet dining experience</li>
@@ -246,17 +246,17 @@ export default function GrandMandarin() {
                         <div className="text-center" data-aos="fade-up">
                             <img src="/GrandMandarin/10.webp" alt="Dining" className="w-full h-48 object-cover rounded-xl mb-4" />
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Gourmet Dining</h3>
-                            <p className="font-hero text-[#919090]">Open buffet for all meals, themed set menu weekly, complimentary tea time</p>
+                            <p className="font-times text-[#919090]">Open buffet for all meals, themed set menu weekly, complimentary tea time</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="100">
                             <img src="/GrandMandarin/11.webp" alt="Entertainment" className="w-full h-48 object-cover rounded-xl mb-4" />
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Live Entertainment</h3>
-                            <p className="font-hero text-[#919090]">Oriental galabia party, belly dancer, daily music & entertainment</p>
+                            <p className="font-times text-[#919090]">Oriental galabia party, belly dancer, daily music & entertainment</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="200">
                             <img src="/GrandMandarin/12.webp" alt="Facilities" className="w-full h-48 object-cover rounded-xl mb-4" />
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Premium Facilities</h3>
-                            <p className="font-hero text-[#919090">Central AC system, credit cards accepted, infirmary on board, Cristal certified</p>
+                            <p className="font-times text-[#919090">Central AC system, credit cards accepted, infirmary on board, Cristal certified</p>
                         </div>
                     </div>
                 </div>
@@ -314,7 +314,7 @@ export default function GrandMandarin() {
                     <h2 className="text-4xl md:text-6xl font-bold font-georgia text-white mb-6" data-aos="fade-up">
                         Experience Grand Mandarin
                     </h2>
-                    <p className="text-xl md:text-2xl font-hero text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-xl md:text-2xl font-times text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
                         Book your superior deluxe Nile cruise experience
                     </p>
                     
