@@ -114,7 +114,7 @@ export default function RoyalPrincessGallery() {
                         </p>
                     </div>
                     
-                    <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div className="max-w-md mx-auto">
                         <div className="relative group">
                             <div className="relative bg-gray-200 rounded-xl overflow-hidden shadow-lg">
                                 <iframe 
@@ -128,20 +128,6 @@ export default function RoyalPrincessGallery() {
                                 ></iframe>
                             </div>
                             <h3 className="text-lg font-semibold font-georgia text-[#5A5248] mt-4 text-center">Royal Princess Tour</h3>
-                        </div>
-                        <div className="relative group">
-                            <div className="relative bg-gray-200 rounded-xl overflow-hidden shadow-lg">
-                                <iframe 
-                                    className="w-full aspect-video"
-                                    src="https://www.youtube.com/embed/tph2BKLzgyg?si=SSCFF6j3v9KoJB5U" 
-                                    title="YouTube video player" 
-                                    frameBorder="0" 
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                    referrerPolicy="strict-origin-when-cross-origin" 
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
-                            <h3 className="text-lg font-semibold font-georgia text-[#5A5248] mt-4 text-center">Luxury Experience</h3>
                         </div>
                     </div>
                 </div>
