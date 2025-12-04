@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="flex items-center mb-4">
                             <h3 className="text-xl font-bold font-georgia">Mandarin Cruise Line</h3>
                         </div>
-                        <p className="text-sm font-times opacity-90">
+                        <p className="text-sm font-hero opacity-90">
                             Five-Star Deluxe Floating Hotel Experience on the Nile
                         </p>
                     </div>
@@ -18,7 +18,7 @@ const Footer = () => {
                     {/* Navigation Links */}
                     <div className="md:col-span-1" data-aos="fade-up" data-aos-delay="100">
                         <h4 className="text-lg font-semibold font-georgia mb-4">Navigation</h4>
-                        <ul className="space-y-2 font-times">
+                        <ul className="space-y-2 font-hero">
                             <li><Link to="/" className="hover:opacity-70 transition-opacity">Home</Link></li>
                             <li><Link to="/about-us" className="hover:opacity-70 transition-opacity">About Us</Link></li>
                             <li><Link to="/royal-princess" className="hover:opacity-70 transition-opacity">Royal Princess</Link></li>
@@ -30,7 +30,7 @@ const Footer = () => {
                     {/* Contact Info */}
                     <div className="md:col-span-1" data-aos="fade-up" data-aos-delay="200">
                         <h4 className="text-lg font-semibold font-georgia mb-4">Contact</h4>
-                        <div className="space-y-3 font-times">
+                        <div className="space-y-3 font-hero">
                             <div className="flex items-start">
                                 <i className="fas fa-phone mr-3 mt-1"></i>
                                 <div>
@@ -65,7 +65,7 @@ const Footer = () => {
 
                 {/* Copyright */}
                 <div className="border-t border-white/20 mt-8 pt-6 text-center">
-                    <p className="font-times opacity-90">
+                    <p className="font-hero opacity-90">
                         © 2025 Mandarin Cruise Line. All rights reserved.
                     </p>
                 </div>

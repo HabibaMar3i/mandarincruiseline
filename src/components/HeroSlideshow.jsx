@@ -45,7 +45,7 @@ const HeroSlideshow = () => {
                     <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 font-georgia leading-tight text-[#F2ECE7]">
                         Mandarin Cruise Line
                     </h1>
-                    <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-times text-[#EFE8E1]">
+                    <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero text-[#EFE8E1]">
                         Five-Star Deluxe Floating Hotel Experience
                     </p>
                     <button className="mt-8 bg-[#5A5248] text-white px-8 py-3 text-lg font-semibold rounded hover:opacity-90">

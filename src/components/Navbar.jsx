@@ -40,7 +40,7 @@ export default function NavbarComponent() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden lg:flex gap-8 font-times flex-1" justify="center">
+      <NavbarContent className="hidden lg:flex gap-8 font-hero flex-1" justify="center">
         {menuItems.map((item) => (
           <NavbarItem key={item.name}>
             <Link as={RouterLink} to={item.path} className="hover:opacity-70 text-lg font-medium text-[#5A5248]">
@@ -51,14 +51,14 @@ export default function NavbarComponent() {
         <NavbarItem>
           <Dropdown>
             <DropdownTrigger>
-              <Button variant="light" className="hover:opacity-70 text-lg font-medium text-[#5A5248] font-times">
+              <Button variant="light" className="hover:opacity-70 text-lg font-medium text-[#5A5248] font-hero">
                 Gallery <i className="fas fa-chevron-down ml-1"></i>
               </Button>
             </DropdownTrigger>
             <DropdownMenu aria-label="Gallery options">
               {galleryItems.map((item) => (
                 <DropdownItem key={item.name}>
-                  <Link as={RouterLink} to={item.path} className="text-[#5A5248] font-times">
+                  <Link as={RouterLink} to={item.path} className="text-[#5A5248] font-hero">
                     {item.name}
                   </Link>
                 </DropdownItem>
@@ -82,7 +82,7 @@ export default function NavbarComponent() {
             <Link
               as={RouterLink}
               to={item.path}
-              className="w-full font-times text-lg py-2 text-[#5A5248]"
+              className="w-full font-hero text-lg py-2 text-[#5A5248]"
               size="lg"
               onClick={handleMenuItemClick}
             >
@@ -95,7 +95,7 @@ export default function NavbarComponent() {
             <Link
               as={RouterLink}
               to={item.path}
-              className="w-full font-times text-lg py-2 text-[#5A5248]"
+              className="w-full font-hero text-lg py-2 text-[#5A5248]"
               size="lg"
               onClick={handleMenuItemClick}
             >

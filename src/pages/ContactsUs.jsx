@@ -15,7 +15,7 @@ export default function ContactUs() {
                         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 font-georgia leading-tight" data-aos="fade-up">
                             Contact Us
                         </h1>
-                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-times mb-8" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero mb-8" data-aos="fade-up" data-aos-delay="200">
                             Ready to embark on your luxury Nile cruise adventure?
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
@@ -37,7 +37,7 @@ export default function ContactUs() {
                         <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
                             Get In Touch
                         </h2>
-                        <p className="text-lg font-times text-[#919090] max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg font-hero text-[#919090] max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
                             Contact our expert team to plan your perfect Nile cruise experience
                         </p>
                     </div>
@@ -49,14 +49,14 @@ export default function ContactUs() {
                                 <i className="fas fa-phone text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Call Us</h3>
-                            <p className="font-times text-[#919090] mb-4">
+                            <p className="font-hero text-[#919090] mb-4">
                                 0223950572<br />
                                 0223950693<br />
                                 0223954049<br />
                                 0223927996<br />
                                 0223927363
                             </p>
-                            <p className="text-sm font-times text-[#5A5248] font-semibold">Available 24/7</p>
+                            <p className="text-sm font-hero text-[#5A5248] font-semibold">Available 24/7</p>
                         </div>
 
                         {/* Email Card */}
@@ -65,10 +65,10 @@ export default function ContactUs() {
                                 <i className="fas fa-envelope text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Email Us</h3>
-                            <p className="font-times text-[#919090] mb-4">
+                            <p className="font-hero text-[#919090] mb-4">
                                 info@mandarincruiseline.com<br />
                             </p>
-                            <p className="text-sm font-times text-[#5A5248] font-semibold">Quick Response</p>
+                            <p className="text-sm font-hero text-[#5A5248] font-semibold">Quick Response</p>
                         </div>
 
                         {/* Visit Card */}
@@ -77,11 +77,11 @@ export default function ContactUs() {
                                 <i className="fas fa-map-marker-alt text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Visit Us</h3>
-                            <p className="font-times text-[#919090] mb-4">
+                            <p className="font-hero text-[#919090] mb-4">
                                 22, Kasr El Nil St.<br />
                                 Cairo, Egypt
                             </p>
-                            <p className="text-sm font-times text-[#5A5248] font-semibold">Egypt</p>
+                            <p className="text-sm font-hero text-[#5A5248] font-semibold">Egypt</p>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ export default function ContactUs() {
                             <h2 className="text-4xl font-bold font-georgia text-[#5A5248] mb-6">
                                 Plan Your Dream Cruise
                             </h2>
-                            <p className="text-lg font-times text-[#919090] mb-8 leading-relaxed">
+                            <p className="text-lg font-hero text-[#919090] mb-8 leading-relaxed">
                                 Our experienced team is ready to help you create unforgettable memories aboard our luxury floating hotels. From selecting the perfect suite to planning your itinerary, we're here to make your Nile cruise extraordinary.
                             </p>
                             
@@ -104,19 +104,19 @@ export default function ContactUs() {
                                     <div className="bg-[#5A5248] text-white p-2 rounded-full">
                                         <i className="fas fa-check"></i>
                                     </div>
-                                    <span className="font-times text-[#919090]">Personalized cruise planning</span>
+                                    <span className="font-hero text-[#919090]">Personalized cruise planning</span>
                                 </div>
                                 <div className="flex items-center space-x-4">
                                     <div className="bg-[#5A5248] text-white p-2 rounded-full">
                                         <i className="fas fa-check"></i>
                                     </div>
-                                    <span className="font-times text-[#919090]">Expert local knowledge</span>
+                                    <span className="font-hero text-[#919090]">Expert local knowledge</span>
                                 </div>
                                 <div className="flex items-center space-x-4">
                                     <div className="bg-[#5A5248] text-white p-2 rounded-full">
                                         <i className="fas fa-check"></i>
                                     </div>
-                                    <span className="font-times text-[#919090]">24/7 customer support</span>
+                                    <span className="font-hero text-[#919090]">24/7 customer support</span>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +148,7 @@ export default function ContactUs() {
                                         <h3 className="text-xl font-semibold font-georgia mb-2">
                                             <i className="fas fa-building mr-2"></i>Office Address
                                         </h3>
-                                        <p className="font-times opacity-90">
+                                        <p className="font-hero opacity-90">
                                             22, Kasr El Nil St.<br />
                                             Cairo, Egypt
                                         </p>
@@ -158,7 +158,7 @@ export default function ContactUs() {
                                         <h3 className="text-xl font-semibold font-georgia mb-2">
                                             <i className="fas fa-phone mr-2"></i>Phone & Fax
                                         </h3>
-                                        <p className="font-times opacity-90">
+                                        <p className="font-hero opacity-90">
                                             0223950572<br />
                                             0223950693<br />
                                             0223954049<br />
@@ -175,7 +175,7 @@ export default function ContactUs() {
                                         <h3 className="text-xl font-semibold font-georgia mb-2">
                                             <i className="fas fa-envelope mr-2"></i>Email Addresses
                                         </h3>
-                                        <p className="font-times opacity-90">
+                                        <p className="font-hero opacity-90">
                                             info@mandarincruiseline.com<br />
                                         </p>
                                     </div>
@@ -184,7 +184,7 @@ export default function ContactUs() {
                                         <h3 className="text-xl font-semibold font-georgia mb-2">
                                             <i className="fas fa-globe mr-2"></i>Websites
                                         </h3>
-                                        <p className="font-times opacity-90">
+                                        <p className="font-hero opacity-90">
                                             www.mandarincruise.com<br />
                                         </p>
                                     </div>
@@ -217,7 +217,7 @@ export default function ContactUs() {
                     <h2 className="text-4xl md:text-6xl font-bold font-georgia text-white mb-6" data-aos="fade-up">
                         Ready to Sail?
                     </h2>
-                    <p className="text-xl md:text-2xl font-times text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-xl md:text-2xl font-hero text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
                         Contact us today to begin planning your luxury Nile cruise experience
                     </p>
                     
@@ -247,21 +247,21 @@ export default function ContactUs() {
                                 <i className="fas fa-star text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">5-Star Luxury</h3>
-                            <p className="font-times text-[#919090]">Superior deluxe floating hotels with world-class amenities and service</p>
+                            <p className="font-hero text-[#919090]">Superior deluxe floating hotels with world-class amenities and service</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="100">
                             <div className="bg-[#5A5248] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                                 <i className="fas fa-shield-alt text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Safety First</h3>
-                            <p className="font-times text-[#919090]">Built under international supervision with CRISTAL certification</p>
+                            <p className="font-hero text-[#919090]">Built under international supervision with CRISTAL certification</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="200">
                             <div className="bg-[#5A5248] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                                 <i className="fas fa-heart text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Unforgettable Experience</h3>
-                            <p className="font-times text-[#919090]">Create memories that last a lifetime on the majestic Nile River</p>
+                            <p className="font-hero text-[#919090]">Create memories that last a lifetime on the majestic Nile River</p>
                         </div>
                     </div>
                 </div>

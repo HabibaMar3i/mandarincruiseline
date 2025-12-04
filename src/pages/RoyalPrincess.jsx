@@ -17,7 +17,7 @@ export default function RoyalPrincess() {
                         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 font-georgia leading-tight" data-aos="fade-up">
                             Royal Princess
                         </h1>
-                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-times mb-8" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero mb-8" data-aos="fade-up" data-aos-delay="200">
                             Five-Star Super Deluxe Floating Hotel
                         </p>
                         <Link 
@@ -38,7 +38,7 @@ export default function RoyalPrincess() {
                         <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
                             Five-Star Super Deluxe Experience
                         </h2>
-                        <p className="text-lg md:text-xl font-times text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg md:text-xl font-hero text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
                             Royal Princess is a five-star super deluxe floating hotel, built and constructed under the supervision of POLSKIREJESTR STATKOW and as per its regulations. Experience luxury across 5 decks with superior facilities.
                         </p>
                     </div>
@@ -49,7 +49,7 @@ export default function RoyalPrincess() {
                         </div>
                         <div data-aos="fade-up" data-aos-delay="200">
                             <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-6">Technical Specifications</h3>
-                            <div className="space-y-4 font-times text-[#919090]">
+                            <div className="space-y-4 font-hero text-[#919090]">
                                 <div className="flex justify-between border-b pb-2">
                                     <span className="font-semibold">Length:</span>
                                     <span>72 meters</span>
@@ -109,8 +109,8 @@ export default function RoyalPrincess() {
                             </div>
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Standard Cabins</h3>
-                                <p className="text-[#919090] font-times mb-4">57 Cabins (22 sqm each) with 26 connected cabins available</p>
-                                <ul className="space-y-2 text-[#919090] font-times">
+                                <p className="text-[#919090] font-hero mb-4">57 Cabins (22 sqm each) with 26 connected cabins available</p>
+                                <ul className="space-y-2 text-[#919090] font-hero">
                                     <li>• Private marble bathroom with shower cabin</li>
                                     <li>• Wooden floors & panoramic windows</li>
                                     <li>• Color TV & central sound system</li>
@@ -129,8 +129,8 @@ export default function RoyalPrincess() {
                             </div>
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Royal Suites</h3>
-                                <p className="text-[#919090] font-times mb-4">2 Royal Suites (30 sqm each) with private balconies</p>
-                                <ul className="space-y-2 text-[#919090] font-times">
+                                <p className="text-[#919090] font-hero mb-4">2 Royal Suites (30 sqm each) with private balconies</p>
+                                <ul className="space-y-2 text-[#919090] font-hero">
                                     <li>• Private bathroom with bathtub & Jacuzzi</li>
                                     <li>• Wide panoramic windows & private balcony</li>
                                     <li>• Color TV & central video/sound system</li>
@@ -160,7 +160,7 @@ export default function RoyalPrincess() {
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">Sun Deck (E)</h3>
-                                    <ul className="space-y-2 font-times">
+                                    <ul className="space-y-2 font-hero">
                                         <li>• Swimming pool & Jacuzzi</li>
                                         <li>• Open air gym</li>
                                         <li>• Sun deck bar</li>
@@ -177,7 +177,7 @@ export default function RoyalPrincess() {
                                 <img src="/RoyalPrincess/Royal Princess (6).webp" alt="Lounge Deck" className="rounded-lg" />
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Lounge Deck (D)</h3>
-                                    <ul className="space-y-2 font-times text-[#919090]">
+                                    <ul className="space-y-2 font-hero text-[#919090]">
                                         <li>• 16 Cabins</li>
                                         <li>• Lounge bar</li>
                                         <li>• Discotheque</li>
@@ -193,7 +193,7 @@ export default function RoyalPrincess() {
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">Upper Deck (C)</h3>
-                                    <ul className="space-y-2 font-times">
+                                    <ul className="space-y-2 font-hero">
                                         <li>• 2 Royal Suites</li>
                                         <li>• 24 Cabins</li>
                                         <li>• Piano bar</li>
@@ -210,7 +210,7 @@ export default function RoyalPrincess() {
                                 <img src="/RoyalPrincess/Royal Princess (12).webp" alt="Main Deck" className="rounded-lg" />
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Main Deck (B)</h3>
-                                    <ul className="space-y-2 font-times text-[#919090]">
+                                    <ul className="space-y-2 font-hero text-[#919090]">
                                         <li>• Reception desk</li>
                                         <li>• Lobby (180 sqm)</li>
                                         <li>• Bazaar</li>
@@ -226,7 +226,7 @@ export default function RoyalPrincess() {
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">Lower Deck (A)</h3>
-                                    <ul className="space-y-2 font-times">
+                                    <ul className="space-y-2 font-hero">
                                         <li>• Engine room</li>
                                         <li>• Galley</li>
                                         <li>• Restaurant</li>
@@ -254,17 +254,17 @@ export default function RoyalPrincess() {
                         <div className="text-center" data-aos="fade-up">
                             <img src="/RoyalPrincess/Royal Princess (8).webp" alt="Restaurant" className="w-full h-48 object-cover rounded-xl mb-4" />
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Main Restaurant</h3>
-                            <p className="font-times text-[#919090]">Open buffet with international dishes, seating for 150 guests</p>
+                            <p className="font-hero text-[#919090]">Open buffet with international dishes, seating for 150 guests</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="100">
                             <img src="/RoyalPrincess/Royal Princess (9).webp" alt="Entertainment" className="w-full h-48 object-cover rounded-xl mb-4" />
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Entertainment</h3>
-                            <p className="font-times text-[#919090]">Belly dancer, cocktail parties, oriental nights, folkloric shows & Galabiya party</p>
+                            <p className="font-hero text-[#919090]">Belly dancer, cocktail parties, oriental nights, folkloric shows & Galabiya party</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="200">
                             <img src="/RoyalPrincess/Royal Princess (10).webp" alt="Pool Area" className="w-full h-48 object-cover rounded-xl mb-4" />
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Pool & Jacuzzi</h3>
-                            <p className="font-times text-[#919090]">Swimming pool, Jacuzzi, and open-air gym on sun deck</p>
+                            <p className="font-hero text-[#919090]">Swimming pool, Jacuzzi, and open-air gym on sun deck</p>
                         </div>
                     </div>
                 </div>
@@ -283,8 +283,8 @@ export default function RoyalPrincess() {
                         {/* 4 Nights Luxor to Aswan */}
                         <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up">
                             <h3 className="text-3xl font-bold font-georgia mb-6">4 Nights / 5 Days</h3>
-                            <p className="text-xl font-times mb-6">Luxor to Aswan</p>
-                            <div className="space-y-4 font-times">
+                            <p className="text-xl font-hero mb-6">Luxor to Aswan</p>
+                            <div className="space-y-4 font-hero">
                                 <div>
                                     <h4 className="font-semibold mb-2">Day 1 (Mon): Luxor</h4>
                                     <p className="text-sm opacity-90">Embarkation, East Bank visits: Karnak & Luxor Temples</p>
@@ -311,8 +311,8 @@ export default function RoyalPrincess() {
                         {/* 3 Nights Aswan to Luxor */}
                         <div className="bg-white border-2 border-[#5A5248] rounded-xl p-8" data-aos="fade-up" data-aos-delay="200">
                             <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-6">3 Nights / 4 Days</h3>
-                            <p className="text-xl font-times text-[#5A5248] mb-6">Aswan to Luxor</p>
-                            <div className="space-y-4 font-times text-[#919090]">
+                            <p className="text-xl font-hero text-[#5A5248] mb-6">Aswan to Luxor</p>
+                            <div className="space-y-4 font-hero text-[#919090]">
                                 <div>
                                     <h4 className="font-semibold mb-2">Day 1 (Fri): Aswan</h4>
                                     <p className="text-sm">Embarkation, Philae Temple, felucca around Elephantine Island</p>
@@ -348,7 +348,7 @@ export default function RoyalPrincess() {
                     <h2 className="text-4xl md:text-6xl font-bold font-georgia text-white mb-6" data-aos="fade-up">
                         Experience Royal Princess
                     </h2>
-                    <p className="text-xl md:text-2xl font-times text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-xl md:text-2xl font-hero text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
                         Book your luxury Nile cruise aboard our five-star floating hotel
                     </p>
                     
