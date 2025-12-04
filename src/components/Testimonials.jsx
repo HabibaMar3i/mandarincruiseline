@@ -56,14 +56,14 @@ const Testimonials = () => {
                         </div>
                         
                         <div className="transition-opacity duration-500">
-                            <p className="text-lg md:text-xl text-[#919090] font-times leading-relaxed mb-8 italic">
+                            <p className="text-lg md:text-xl text-[#919090] font-georgia leading-relaxed mb-8 italic">
                                 "{testimonials[currentTestimonial].text}"
                             </p>
                             <div>
                                 <h4 className="text-xl font-bold font-georgia text-[#5A5248] mb-1">
                                     {testimonials[currentTestimonial].name}
                                 </h4>
-                                <p className="text-[#919090] font-times">
+                                <p className="text-[#919090] font-georgia">
                                     {testimonials[currentTestimonial].location}
                                 </p>
                             </div>

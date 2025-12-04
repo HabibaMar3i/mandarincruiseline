@@ -59,7 +59,7 @@ export default function GrandMandarinGallery() {
                         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 font-georgia leading-tight" data-aos="fade-up">
                             Grand Mandarin Gallery
                         </h1>
-                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-times" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-georgia" data-aos="fade-up" data-aos-delay="200">
                             5-Star Superior Deluxe Floating Hotel
                         </p>
                     </div>
@@ -72,7 +72,7 @@ export default function GrandMandarinGallery() {
                     <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
                         Download Gallery
                     </h2>
-                    <p className="text-lg font-times text-[#919090] mb-8" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-lg font-georgia text-[#919090] mb-8" data-aos="fade-up" data-aos-delay="200">
                         Download or share our Grand Mandarin photo collection
                     </p>
                     
@@ -113,7 +113,7 @@ export default function GrandMandarinGallery() {
                         <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#5A5248] mb-8">
                             Video Gallery
                         </h2>
-                        <p className="text-lg font-times text-[#919090]">
+                        <p className="text-lg font-georgia text-[#919090]">
                             Experience Grand Mandarin in motion
                         </p>
                     </div>
@@ -188,7 +188,7 @@ export default function GrandMandarinGallery() {
                     <h2 className="text-4xl md:text-6xl font-bold font-georgia text-white mb-6" data-aos="fade-up">
                         Experience Grand Mandarin
                     </h2>
-                    <p className="text-xl md:text-2xl font-times text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-xl md:text-2xl font-georgia text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
                         Book your superior deluxe Nile cruise experience
                     </p>
                     

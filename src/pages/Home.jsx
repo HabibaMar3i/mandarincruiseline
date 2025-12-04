@@ -13,7 +13,7 @@ export default function Home() {
                     <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
                         Welcome to Mandarin Cruise Line
                     </h2>
-                    <p className="text-lg md:text-xl font-times text-[#919090] leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-lg md:text-xl font-georgia text-[#919090] leading-relaxed" data-aos="fade-up" data-aos-delay="200">
                         Experience luxury aboard our five-star deluxe floating hotels, Grand Mandarin and Royal Princess. 
                         Built under international maritime supervision, our vessels offer unparalleled Nile cruise experiences 
                         with world-class accommodations, fine dining, entertainment, and breathtaking views of ancient Egypt's 
@@ -29,7 +29,7 @@ export default function Home() {
                         <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
                             SUITES & ACCOMMODATIONS
                         </h2>
-                        <p className="text-lg md:text-xl font-times text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg md:text-xl font-georgia text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
                             Our accommodations feature spacious suites with wooden floors and wide panoramic windows for beautiful Nile views. 
                             Each suite includes private marble bathrooms, central air conditioning, minibar, safe box, and sailing cameras 
                             to watch the scenery as we cruise along the majestic Nile River.
@@ -44,7 +44,7 @@ export default function Home() {
                             </div>
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Grand Mandarin</h3>
-                                <p className="text-[#919090] font-times mb-6">62 Junior Suites (21 sqm) + 2 Royal Suites "Nefertiti" & "Cleopatra" (30 sqm) with panoramic Nile views</p>
+                                <p className="text-[#919090] font-georgia mb-6">62 Junior Suites (21 sqm) + 2 Royal Suites "Nefertiti" & "Cleopatra" (30 sqm) with panoramic Nile views</p>
                                 <div className="flex flex-col sm:flex-row gap-3">
                                     <Link 
                                         to="/grand-mandarin"
@@ -69,7 +69,7 @@ export default function Home() {
                             </div>
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Royal Princess</h3>
-                                <p className="text-[#919090] font-times mb-6">57 Cabins (22 sqm) + 2 Royal Suites (30 sqm) with private balconies and marble bathrooms featuring jacuzzi</p>
+                                <p className="text-[#919090] font-georgia mb-6">57 Cabins (22 sqm) + 2 Royal Suites (30 sqm) with private balconies and marble bathrooms featuring jacuzzi</p>
                                 <div className="flex flex-col sm:flex-row gap-3">
                                     <Link 
                                         to="/royal-princess"
@@ -99,7 +99,7 @@ export default function Home() {
                         <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-4" data-aos="fade-up">
                             Grand Mandarin Gallery
                         </h2>
-                        <p className="text-lg font-times text-[#919090]" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg font-georgia text-[#919090]" data-aos="fade-up" data-aos-delay="200">
                             5-Star Superior Deluxe Floating Hotel
                         </p>
                     </div>
@@ -146,7 +146,7 @@ export default function Home() {
                     <h2 className="text-4xl md:text-6xl font-bold font-georgia text-white mb-6" data-aos="fade-up">
                         Ready for Your Nile Adventure?
                     </h2>
-                    <p className="text-xl md:text-2xl font-times text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-xl md:text-2xl font-georgia text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
                         Experience luxury, history, and unforgettable moments aboard our five-star floating hotels
                     </p>
                     
