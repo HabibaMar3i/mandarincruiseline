@@ -34,9 +34,11 @@ const Footer = () => {
                             <div className="flex items-start">
                                 <i className="fas fa-phone mr-3 mt-1"></i>
                                 <div>
-                                    <div>(00202)-2575-7215</div>
-                                    <div>+202 23950693</div>
-                                    <div>+202 23950583</div>
+                                    <div>0223950572</div>
+                                    <div>0223950693</div>
+                                    <div>0223954049</div>
+                                    <div>0223927996</div>
+                                    <div>0223927363</div>
                                 </div>
                             </div>
                             <div className="flex items-center">
@@ -53,18 +55,9 @@ const Footer = () => {
                     {/* Social Media */}
                     <div className="md:col-span-1" data-aos="fade-up" data-aos-delay="300">
                         <h4 className="text-lg font-semibold font-georgia mb-4">Follow Us</h4>
-                        <div className="flex space-x-4">
-                            <a href="#" className="hover:opacity-70 transition-opacity">
-                                <i className="fab fa-facebook-f text-xl"></i>
-                            </a>
-                            <a href="#" className="hover:opacity-70 transition-opacity">
+                        <div className="flex">
+                            <a href="https://www.instagram.com/mandarincruiseline/?hl=en" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
                                 <i className="fab fa-instagram text-xl"></i>
-                            </a>
-                            <a href="#" className="hover:opacity-70 transition-opacity">
-                                <i className="fab fa-twitter text-xl"></i>
-                            </a>
-                            <a href="#" className="hover:opacity-70 transition-opacity">
-                                <i className="fab fa-youtube text-xl"></i>
                             </a>
                         </div>
                     </div>
