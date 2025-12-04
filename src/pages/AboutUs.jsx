@@ -18,7 +18,7 @@ export default function AboutUs() {
                         <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero mb-8" data-aos="fade-up" data-aos-delay="200">
                             Our story is being crafted...
                         </p>
-                        <div className="bg-[#a1978a] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full inline-block" data-aos="fade-up" data-aos-delay="400">
+                        <div className="bg-[#5A5248] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full inline-block" data-aos="fade-up" data-aos-delay="400">
                             <i className="fas fa-clock mr-2"></i>Coming Soon
                         </div>
                     </div>
@@ -28,7 +28,7 @@ export default function AboutUs() {
             {/* Coming Soon Content */}
             <section className="py-16 px-6">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a1978a] mb-8" data-aos="fade-up">
+                    <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
                         Coming Soon
                     </h2>
                     <p className="text-lg md:text-xl font-hero text-[#919090] leading-relaxed mb-12" data-aos="fade-up" data-aos-delay="200">
@@ -37,24 +37,24 @@ export default function AboutUs() {
                     
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="text-center" data-aos="fade-up">
-                            <div className="bg-gradient-to-br from-[#a1978a] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                            <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                                 <i className="fas fa-history text-2xl"></i>
                             </div>
-                            <h3 className="text-2xl font-bold font-georgia text-[#a1978a] mb-4">Our Heritage</h3>
+                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Heritage</h3>
                             <p className="font-hero text-[#919090]">Discover the rich history behind Mandarin Cruise Line</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="100">
-                            <div className="bg-gradient-to-br from-[#a1978a] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                            <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                                 <i className="fas fa-users text-2xl"></i>
                             </div>
-                            <h3 className="text-2xl font-bold font-georgia text-[#a1978a] mb-4">Our Team</h3>
+                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Team</h3>
                             <p className="font-hero text-[#919090]">Meet the dedicated professionals behind your cruise experience</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="200">
-                            <div className="bg-gradient-to-br from-[#a1978a] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                            <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                                 <i className="fas fa-award text-2xl"></i>
                             </div>
-                            <h3 className="text-2xl font-bold font-georgia text-[#a1978a] mb-4">Our Mission</h3>
+                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Mission</h3>
                             <p className="font-hero text-[#919090]">Learn about our commitment to excellence and luxury</p>
                         </div>
                     </div>
@@ -79,10 +79,10 @@ export default function AboutUs() {
                     </p>
                     
                     <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
-                        <a href="/royal-princess" className="bg-[#a1978a] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
+                        <a href="/royal-princess" className="bg-[#5A5248] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
                             Royal Princess
                         </a>
-                        <a href="/grand-mandarin" className="bg-white text-[#a1978a] px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
+                        <a href="/grand-mandarin" className="bg-white text-[#5A5248] px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
                             Grand Mandarin
                         </a>
                     </div>

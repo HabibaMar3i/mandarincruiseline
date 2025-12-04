@@ -48,7 +48,7 @@ const HeroSlideshow = () => {
                     <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero text-[#EFE8E1]">
                         Five-Star Deluxe Floating Hotel Experience
                     </p>
-                    <button className="mt-8 bg-[#a1978a] text-white px-8 py-3 text-lg font-semibold rounded hover:opacity-90">
+                    <button className="mt-8 bg-[#5A5248] text-white px-8 py-3 text-lg font-semibold rounded hover:opacity-90">
                         Explore Our Fleet
                     </button>
                 </div>
