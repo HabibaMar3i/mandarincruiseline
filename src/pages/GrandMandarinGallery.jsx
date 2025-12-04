@@ -118,18 +118,18 @@ export default function GrandMandarinGallery() {
                         </p>
                     </div>
                     
-                    <div className="max-w-md mx-auto">
+                    <div className="max-w-xs mx-auto">
                         <div className="relative group">
-                            <div className="relative bg-gray-200 rounded-xl overflow-hidden shadow-lg">
-                                <iframe 
-                                    className="w-full aspect-video"
-                                    src="https://www.youtube.com/embed/T7AJN_3cZSU?si=CTWw8cQcO6z6ovwu" 
-                                    title="YouTube video player" 
-                                    frameBorder="0" 
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                    referrerPolicy="strict-origin-when-cross-origin" 
-                                    allowFullScreen
-                                ></iframe>
+                            <div className="relative bg-[#EAEAEA] rounded-xl overflow-hidden shadow-lg aspect-[9/16]">
+                                <video 
+                                    className="w-full h-full object-cover"
+                                    controls
+                                    preload="metadata"
+                                    poster="/GrandMandarin/01.webp"
+                                >
+                                    <source src="/Grand_Mandarin_Video.mp4" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
                             <h3 className="text-lg font-semibold font-georgia text-[#5A5248] mt-4 text-center">Grand Mandarin Experience</h3>
                         </div>
