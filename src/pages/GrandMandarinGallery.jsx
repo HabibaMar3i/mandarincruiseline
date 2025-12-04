@@ -66,6 +66,75 @@ export default function GrandMandarinGallery() {
                 </div>
             </section>
 
+            {/* Main Carousel */}
+            <section className="py-16 px-6 bg-white">
+                <div className="max-w-6xl mx-auto">
+                    <div className="relative">
+                        {/* Main Image */}
+                        <div className="relative h-96 md:h-[600px] rounded-xl overflow-hidden shadow-2xl">
+                            <img 
+                                src={images[currentImage]} 
+                                alt={`Grand Mandarin ${currentImage + 1}`}
+                                className="w-full h-full object-cover"
+                                loading="lazy"
+                            />
+                            
+                            {/* Navigation Arrows */}
+                            <button 
+                                onClick={prevImage}
+                                className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition-all"
+                                aria-label="Previous image"
+                            >
+                                <i className="fas fa-chevron-left"></i>
+                            </button>
+                            <button 
+                                onClick={nextImage}
+                                className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition-all"
+                                aria-label="Next image"
+                            >
+                                <i className="fas fa-chevron-right"></i>
+                            </button>
+                            
+                            {/* Image Counter */}
+                            <div className="absolute bottom-4 left-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
+                                {currentImage + 1} / {images.length}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Video Gallery Section */}
+            <section className="py-16 px-6">
+                <div className="max-w-6xl mx-auto">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#5A5248] mb-8">
+                            Video Gallery
+                        </h2>
+                        <p className="text-lg font-georgia text-[#919090]">
+                            Experience Grand Mandarin in motion
+                        </p>
+                    </div>
+                    
+                    <div className="max-w-xs mx-auto">
+                        <div className="relative group">
+                            <div className="relative bg-[#EAEAEA] rounded-xl overflow-hidden shadow-lg aspect-[9/16]">
+                                <video 
+                                    className="w-full h-full object-cover"
+                                    controls
+                                    preload="metadata"
+                                    poster="/GrandMandarin/01.webp"
+                                >
+                                    <source src="/Grand_Mandarin_Video.mp4" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <h3 className="text-lg font-semibold font-georgia text-[#5A5248] mt-4 text-center">Grand Mandarin Experience</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* PDF Downloads Section */}
             <section className="py-16 px-6 bg-white">
                 <div className="max-w-4xl mx-auto text-center">
@@ -102,75 +171,6 @@ export default function GrandMandarinGallery() {
                         >
                             <i className="fas fa-share mr-2"></i>Share Gallery
                         </button>
-                    </div>
-                </div>
-            </section>
-
-            {/* Video Gallery Section */}
-            <section className="py-16 px-6">
-                <div className="max-w-6xl mx-auto">
-                    <div className="text-center mb-12">
-                        <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#5A5248] mb-8">
-                            Video Gallery
-                        </h2>
-                        <p className="text-lg font-georgia text-[#919090]">
-                            Experience Grand Mandarin in motion
-                        </p>
-                    </div>
-                    
-                    <div className="max-w-xs mx-auto">
-                        <div className="relative group">
-                            <div className="relative bg-[#EAEAEA] rounded-xl overflow-hidden shadow-lg aspect-[9/16]">
-                                <video 
-                                    className="w-full h-full object-cover"
-                                    controls
-                                    preload="metadata"
-                                    poster="/GrandMandarin/01.webp"
-                                >
-                                    <source src="/Grand_Mandarin_Video.mp4" type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <h3 className="text-lg font-semibold font-georgia text-[#5A5248] mt-4 text-center">Grand Mandarin Experience</h3>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Main Carousel */}
-            <section className="py-16 px-6 bg-white">
-                <div className="max-w-6xl mx-auto">
-                    <div className="relative">
-                        {/* Main Image */}
-                        <div className="relative h-96 md:h-[600px] rounded-xl overflow-hidden shadow-2xl">
-                            <img 
-                                src={images[currentImage]} 
-                                alt={`Grand Mandarin ${currentImage + 1}`}
-                                className="w-full h-full object-cover"
-                                loading="lazy"
-                            />
-                            
-                            {/* Navigation Arrows */}
-                            <button 
-                                onClick={prevImage}
-                                className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition-all"
-                                aria-label="Previous image"
-                            >
-                                <i className="fas fa-chevron-left"></i>
-                            </button>
-                            <button 
-                                onClick={nextImage}
-                                className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition-all"
-                                aria-label="Next image"
-                            >
-                                <i className="fas fa-chevron-right"></i>
-                            </button>
-                            
-                            {/* Image Counter */}
-                            <div className="absolute bottom-4 left-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
-                                {currentImage + 1} / {images.length}
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
