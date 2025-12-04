@@ -15,7 +15,7 @@ export default function AboutUs() {
                         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 font-georgia leading-tight" data-aos="fade-up">
                             About Us
                         </h1>
-                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero mb-8" data-aos="fade-up" data-aos-delay="200">
+                        <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-times mb-8" data-aos="fade-up" data-aos-delay="200">
                             Our story is being crafted...
                         </p>
                         <div className="bg-[#5A5248] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full inline-block" data-aos="fade-up" data-aos-delay="400">
@@ -31,7 +31,7 @@ export default function AboutUs() {
                     <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
                         Coming Soon
                     </h2>
-                    <p className="text-lg md:text-xl font-hero text-[#919090] leading-relaxed mb-12" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-lg md:text-xl font-times text-[#919090] leading-relaxed mb-12" data-aos="fade-up" data-aos-delay="200">
                         We're working on something special to share our story, heritage, and commitment to providing exceptional Nile cruise experiences. Stay tuned for updates!
                     </p>
                     
@@ -41,21 +41,21 @@ export default function AboutUs() {
                                 <i className="fas fa-history text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Heritage</h3>
-                            <p className="font-hero text-[#919090]">Discover the rich history behind Mandarin Cruise Line</p>
+                            <p className="font-times text-[#919090]">Discover the rich history behind Mandarin Cruise Line</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="100">
                             <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                                 <i className="fas fa-users text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Team</h3>
-                            <p className="font-hero text-[#919090]">Meet the dedicated professionals behind your cruise experience</p>
+                            <p className="font-times text-[#919090]">Meet the dedicated professionals behind your cruise experience</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="200">
                             <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                                 <i className="fas fa-award text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Mission</h3>
-                            <p className="font-hero text-[#919090]">Learn about our commitment to excellence and luxury</p>
+                            <p className="font-times text-[#919090]">Learn about our commitment to excellence and luxury</p>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ export default function AboutUs() {
                     <h2 className="text-4xl md:text-6xl font-bold font-georgia text-white mb-6" data-aos="fade-up">
                         Experience Our Ships
                     </h2>
-                    <p className="text-xl md:text-2xl font-hero text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                    <p className="text-xl md:text-2xl font-times text-white mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
                         While our story unfolds, explore our magnificent floating hotels
                     </p>
                     

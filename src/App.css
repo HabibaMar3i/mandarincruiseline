@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hero:wght@400;500;600&display=swap');
 @import "tailwindcss";
 @plugin '../hero.js';
 /* Note: You may need to change the path to fit your project structure */
@@ -11,9 +10,9 @@
 }
 
 .font-georgia {
-  font-family: 'Georgia', serif;
+  font-family: 'Georgia', 'Times New Roman', serif;
 }
 
-.font-hero {
-  font-family: 'Hero', sans-serif;
+.font-times {
+  font-family: 'Times New Roman', Georgia, serif;
 }
