@@ -5,13 +5,13 @@ const HeroSlideshow = () => {
     
     const slides = [
         "/GrandMandarin/04.webp",
-        "/RoyalPrincess/Royal Princess (1).webp",
+        "/GrandMandarin/01.webp",
         "/GrandMandarin/02.webp",
-        "/RoyalPrincess/Royal Princess (2).webp",
+        "/GrandMandarin/03.webp",
         "/GrandMandarin/06.webp",
-        "/RoyalPrincess/Royal Princess (5).webp",
+        "/GrandMandarin/05.webp",
         "/GrandMandarin/10.webp",
-        "/RoyalPrincess/Royal Princess (8).webp"
+        "/GrandMandarin/08.webp"
     ];
 
     useEffect(() => {
