@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const MainLogo = () => {
   return (
-    <img src="/main-logo.svg" alt="Mandarin Cruise Line" className="h-12 w-12" />
+    <img src="/Logo-24-cropped (1).svg" alt="Mandarin Cruise Line" className="h-12 w-12" />
   );
 };
 
