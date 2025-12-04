@@ -25,14 +25,62 @@ export default function AboutUs() {
                 </div>
             </section>
 
+            {/* Our Crew Section */}
+            <section className="py-16 px-6 bg-white">
+                <div className="max-w-6xl mx-auto">
+                    <div className="text-center mb-12">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                            Our Dedicated Crew
+                        </h2>
+                        <p className="text-lg md:text-xl font-georgia text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                            Embark on an unforgettable journey with Mandarin Cruise, where our dedicated team eagerly awaits to welcome you aboard and immerse you in an unparalleled experience of luxury and discovery.
+                        </p>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+                        <div data-aos="fade-up">
+                            <img src="/WhatsApp Image 2025-12-04 at 11.21.10 PM.jpeg" alt="Our Professional Crew" className="w-full rounded-xl shadow-lg" />
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="200">
+                            <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-6">Professional Excellence</h3>
+                            <p className="text-lg font-georgia text-[#919090] mb-6 leading-relaxed">
+                                Our experienced crew members are the heart of your cruise experience. With years of expertise in hospitality and navigation, they ensure every moment of your journey is memorable.
+                            </p>
+                            <ul className="space-y-3 font-georgia text-[#919090]">
+                                <li className="flex items-center"><i className="fas fa-check-circle text-[#5A5248] mr-3"></i>100+ professional crew members</li>
+                                <li className="flex items-center"><i className="fas fa-check-circle text-[#5A5248] mr-3"></i>Multilingual hospitality team</li>
+                                <li className="flex items-center"><i className="fas fa-check-circle text-[#5A5248] mr-3"></i>Expert navigation and safety</li>
+                                <li className="flex items-center"><i className="fas fa-check-circle text-[#5A5248] mr-3"></i>24/7 guest services</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    {/* Crew Video */}
+                    <div className="text-center" data-aos="fade-up">
+                        <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-8">Meet Our Team</h3>
+                        <div className="max-w-md mx-auto rounded-xl overflow-hidden shadow-2xl">
+                            <video 
+                                controls 
+                                preload="metadata"
+                                className="w-full h-auto"
+                                poster="/WhatsApp Image 2025-12-04 at 11.21.10 PM.jpeg"
+                            >
+                                <source src="/crew-reel.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Coming Soon Content */}
             <section className="py-16 px-6">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
-                        Coming Soon
+                        More Coming Soon
                     </h2>
-                    <p className="text-lg md:text-xl font-hero text-[#919090] leading-relaxed mb-12" data-aos="fade-up" data-aos-delay="200">
-                        We're working on something special to share our story, heritage, and commitment to providing exceptional Nile cruise experiences. Stay tuned for updates!
+                    <p className="text-lg md:text-xl font-georgia text-[#919090] leading-relaxed mb-12" data-aos="fade-up" data-aos-delay="200">
+                        We're working on something special to share our complete story, heritage, and commitment to providing exceptional Nile cruise experiences.
                     </p>
                     
                     <div className="grid md:grid-cols-3 gap-8">
@@ -41,21 +89,21 @@ export default function AboutUs() {
                                 <i className="fas fa-history text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Heritage</h3>
-                            <p className="font-hero text-[#919090]">Discover the rich history behind Mandarin Cruise Line</p>
+                            <p className="font-georgia text-[#919090]">Discover the rich history behind Mandarin Cruise Line</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="100">
                             <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-                                <i className="fas fa-users text-2xl"></i>
+                                <i className="fas fa-ship text-2xl"></i>
                             </div>
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Team</h3>
-                            <p className="font-hero text-[#919090]">Meet the dedicated professionals behind your cruise experience</p>
+                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Fleet</h3>
+                            <p className="font-georgia text-[#919090]">Learn about our magnificent floating hotels and their features</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="200">
                             <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                                 <i className="fas fa-award text-2xl"></i>
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Mission</h3>
-                            <p className="font-hero text-[#919090]">Learn about our commitment to excellence and luxury</p>
+                            <p className="font-georgia text-[#919090]">Learn about our commitment to excellence and luxury</p>
                         </div>
                     </div>
                 </div>
