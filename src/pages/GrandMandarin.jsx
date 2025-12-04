@@ -288,6 +288,16 @@ export default function GrandMandarin() {
                             <img src="/GrandMandarin/17.webp" alt="Lounge" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
                         </div>
                     </div>
+                    
+                    <div className="text-center mt-12">
+                        <Link 
+                            to="/grand-mandarin-gallery"
+                            className="bg-[#5A5248] text-white px-8 py-3 text-lg font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block"
+                            data-aos="fade-up"
+                        >
+                            View Full Gallery
+                        </Link>
+                    </div>
                 </div>
             </section>
 
@@ -308,13 +318,22 @@ export default function GrandMandarin() {
                         Book your superior deluxe Nile cruise experience
                     </p>
                     
-                    <Link 
-                        to="/contact-us"
-                        className="bg-white text-[#5A5248] px-12 py-4 text-xl font-semibold font-georgia rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 inline-block"
-                        data-aos="fade-up" data-aos-delay="400"
-                    >
-                        Book Your Cruise
-                    </Link>
+                    <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                        <Link 
+                            to="/contact-us"
+                            className="bg-white text-[#5A5248] px-12 py-4 text-xl font-semibold font-georgia rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 inline-block"
+                            data-aos="fade-up" data-aos-delay="400"
+                        >
+                            Book Your Cruise
+                        </Link>
+                        <Link 
+                            to="/grand-mandarin-gallery"
+                            className="bg-transparent border-2 border-white text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:bg-white hover:text-[#5A5248] transition-all duration-300 inline-block"
+                            data-aos="fade-up" data-aos-delay="500"
+                        >
+                            View Gallery
+                        </Link>
+                    </div>
                 </div>
             </section>
         </div>
