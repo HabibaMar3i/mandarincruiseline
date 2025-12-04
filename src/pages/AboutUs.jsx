@@ -16,11 +16,8 @@ export default function AboutUs() {
                             About Us
                         </h1>
                         <p className="text-lg sm:text-xl md:text-2xl leading-relaxed font-hero mb-8" data-aos="fade-up" data-aos-delay="200">
-                            Our story is being crafted...
+                            Discover the story behind our luxury Nile cruise experience
                         </p>
-                        <div className="bg-[#5A5248] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full inline-block" data-aos="fade-up" data-aos-delay="400">
-                            <i className="fas fa-clock mr-2"></i>Coming Soon
-                        </div>
                     </div>
                 </div>
             </section>
@@ -73,41 +70,7 @@ export default function AboutUs() {
                 </div>
             </section>
 
-            {/* Coming Soon Content */}
-            <section className="py-16 px-6">
-                <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
-                        More Coming Soon
-                    </h2>
-                    <p className="text-lg md:text-xl font-georgia text-[#919090] leading-relaxed mb-12" data-aos="fade-up" data-aos-delay="200">
-                        We're working on something special to share our complete story, heritage, and commitment to providing exceptional Nile cruise experiences.
-                    </p>
-                    
-                    <div className="grid md:grid-cols-3 gap-8">
-                        <div className="text-center" data-aos="fade-up">
-                            <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-                                <i className="fas fa-history text-2xl"></i>
-                            </div>
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Heritage</h3>
-                            <p className="font-georgia text-[#919090]">Discover the rich history behind Mandarin Cruise Line</p>
-                        </div>
-                        <div className="text-center" data-aos="fade-up" data-aos-delay="100">
-                            <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-                                <i className="fas fa-ship text-2xl"></i>
-                            </div>
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Fleet</h3>
-                            <p className="font-georgia text-[#919090]">Learn about our magnificent floating hotels and their features</p>
-                        </div>
-                        <div className="text-center" data-aos="fade-up" data-aos-delay="200">
-                            <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] text-white p-6 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-                                <i className="fas fa-award text-2xl"></i>
-                            </div>
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-4">Our Mission</h3>
-                            <p className="font-georgia text-[#919090]">Learn about our commitment to excellence and luxury</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
 
             {/* CTA Section */}
             <section className="relative py-24 overflow-hidden">
