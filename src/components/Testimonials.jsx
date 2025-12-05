@@ -34,7 +34,7 @@ const Testimonials = () => {
     }, [testimonials.length]);
 
     return (
-        <section className="relative py-20 overflow-hidden bg-[#5A5248]">
+        <section className="relative py-20 overflow-hidden bg-[#a68b76]">
             <div 
                 className="absolute inset-0 bg-cover bg-center opacity-80"
                 style={{ backgroundImage: 'url(/GrandMandarin/08.webp)' }}
@@ -50,7 +50,7 @@ const Testimonials = () => {
                 <div className="bg-white bg-opacity-95 rounded-xl p-8 md:p-12 shadow-2xl">
                     <div className="text-center">
                         <div className="mb-8">
-                            <svg className="w-12 h-12 text-[#5A5248] mx-auto mb-6" fill="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-12 h-12 text-[#a68b76] mx-auto mb-6" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
                             </svg>
                         </div>
@@ -60,7 +60,7 @@ const Testimonials = () => {
                                 "{testimonials[currentTestimonial].text}"
                             </p>
                             <div>
-                                <h4 className="text-xl font-bold font-georgia text-[#5A5248] mb-1">
+                                <h4 className="text-xl font-bold font-georgia text-[#a68b76] mb-1">
                                     {testimonials[currentTestimonial].name}
                                 </h4>
                                 <p className="text-[#919090] font-georgia">

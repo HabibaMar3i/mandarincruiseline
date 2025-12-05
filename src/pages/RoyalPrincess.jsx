@@ -22,7 +22,7 @@ export default function RoyalPrincess() {
                         </p>
                         <Link 
                             to="/contact-us"
-                            className="bg-[#5A5248] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block"
+                            className="bg-[#a68b76] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block"
                             data-aos="fade-up" data-aos-delay="400"
                         >
                             Book Now
@@ -35,7 +35,7 @@ export default function RoyalPrincess() {
             <section className="py-16 px-6 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             Five-Star Super Deluxe Experience
                         </h2>
                         <p className="text-lg md:text-xl font-georgia text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
@@ -48,7 +48,7 @@ export default function RoyalPrincess() {
                             <img src="/RoyalPrincess/Royal Princess (2).webp" alt="Royal Princess Exterior" className="w-full rounded-xl shadow-lg" />
                         </div>
                         <div data-aos="fade-up" data-aos-delay="200">
-                            <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-6">Technical Specifications</h3>
+                            <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-6">Technical Specifications</h3>
                             <div className="space-y-4 font-georgia text-[#919090]">
                                 <div className="flex justify-between border-b pb-2">
                                     <span className="font-semibold">Length:</span>
@@ -96,7 +96,7 @@ export default function RoyalPrincess() {
             <section className="py-16 px-6">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             Luxurious Accommodations
                         </h2>
                     </div>
@@ -108,7 +108,7 @@ export default function RoyalPrincess() {
                                 <img src="/RoyalPrincess/Royal Princess (3).webp" alt="Royal Princess Cabin" className="w-full h-full object-cover" />
                             </div>
                             <div className="p-8">
-                                <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Standard Cabins</h3>
+                                <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-4">Standard Cabins</h3>
                                 <p className="text-[#919090] font-georgia mb-4">57 Cabins (22 sqm each) with 26 connected cabins available</p>
                                 <ul className="space-y-2 text-[#919090] font-georgia">
                                     <li>• Private marble bathroom with shower cabin</li>
@@ -128,7 +128,7 @@ export default function RoyalPrincess() {
                                 <img src="/RoyalPrincess/Royal Princess (4).webp" alt="Royal Princess Suite" className="w-full h-full object-cover" />
                             </div>
                             <div className="p-8">
-                                <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Royal Suites</h3>
+                                <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-4">Royal Suites</h3>
                                 <p className="text-[#919090] font-georgia mb-4">2 Royal Suites (30 sqm each) with private balconies</p>
                                 <ul className="space-y-2 text-[#919090] font-georgia">
                                     <li>• Private bathroom with bathtub & Jacuzzi</li>
@@ -149,14 +149,14 @@ export default function RoyalPrincess() {
             <section className="py-16 px-6 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             5 Decks of Luxury
                         </h2>
                     </div>
 
                     <div className="space-y-8">
                         {/* Sun Deck */}
-                        <div className="bg-gradient-to-r from-[#5A5248] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up">
+                        <div className="bg-gradient-to-r from-[#a68b76] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">Sun Deck (E)</h3>
@@ -172,11 +172,11 @@ export default function RoyalPrincess() {
                         </div>
 
                         {/* Lounge Deck */}
-                        <div className="bg-white border-2 border-[#5A5248] rounded-xl p-8" data-aos="fade-up" data-aos-delay="100">
+                        <div className="bg-white border-2 border-[#a68b76] rounded-xl p-8" data-aos="fade-up" data-aos-delay="100">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <img src="/RoyalPrincess/Royal Princess (6).webp" alt="Lounge Deck" className="rounded-lg" />
                                 <div>
-                                    <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Lounge Deck (D)</h3>
+                                    <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-4">Lounge Deck (D)</h3>
                                     <ul className="space-y-2 font-georgia text-[#919090]">
                                         <li>• 16 Cabins</li>
                                         <li>• Lounge bar</li>
@@ -189,7 +189,7 @@ export default function RoyalPrincess() {
                         </div>
 
                         {/* Upper Deck */}
-                        <div className="bg-gradient-to-r from-[#5A5248] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up" data-aos-delay="200">
+                        <div className="bg-gradient-to-r from-[#a68b76] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up" data-aos-delay="200">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">Upper Deck (C)</h3>
@@ -205,11 +205,11 @@ export default function RoyalPrincess() {
                         </div>
 
                         {/* Main Deck */}
-                        <div className="bg-white border-2 border-[#5A5248] rounded-xl p-8" data-aos="fade-up" data-aos-delay="300">
+                        <div className="bg-white border-2 border-[#a68b76] rounded-xl p-8" data-aos="fade-up" data-aos-delay="300">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <img src="/RoyalPrincess/Royal Princess (12).webp" alt="Main Deck" className="rounded-lg" />
                                 <div>
-                                    <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Main Deck (B)</h3>
+                                    <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-4">Main Deck (B)</h3>
                                     <ul className="space-y-2 font-georgia text-[#919090]">
                                         <li>• Reception desk</li>
                                         <li>• Lobby (180 sqm)</li>
@@ -222,7 +222,7 @@ export default function RoyalPrincess() {
                         </div>
 
                         {/* Lower Deck */}
-                        <div className="bg-gradient-to-r from-[#5A5248] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up" data-aos-delay="400">
+                        <div className="bg-gradient-to-r from-[#a68b76] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up" data-aos-delay="400">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">Lower Deck (A)</h3>
@@ -245,7 +245,7 @@ export default function RoyalPrincess() {
             <section className="py-16 px-6">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             Dining & Recreation
                         </h2>
                     </div>
@@ -253,17 +253,17 @@ export default function RoyalPrincess() {
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="text-center" data-aos="fade-up">
                             <img src="/RoyalPrincess/Royal Princess (8).webp" alt="Restaurant" className="w-full h-48 object-cover rounded-xl mb-4" />
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Main Restaurant</h3>
+                            <h3 className="text-2xl font-bold font-georgia text-[#a68b76] mb-2">Main Restaurant</h3>
                             <p className="font-georgia text-[#919090]">Open buffet with international dishes, seating for 150 guests</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="100">
                             <img src="/RoyalPrincess/Royal Princess (9).webp" alt="Entertainment" className="w-full h-48 object-cover rounded-xl mb-4" />
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Entertainment</h3>
+                            <h3 className="text-2xl font-bold font-georgia text-[#a68b76] mb-2">Entertainment</h3>
                             <p className="font-georgia text-[#919090]">Belly dancer, cocktail parties, oriental nights, folkloric shows & Galabiya party</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="200">
                             <img src="/RoyalPrincess/Royal Princess (10).webp" alt="Pool Area" className="w-full h-48 object-cover rounded-xl mb-4" />
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Pool & Jacuzzi</h3>
+                            <h3 className="text-2xl font-bold font-georgia text-[#a68b76] mb-2">Pool & Jacuzzi</h3>
                             <p className="font-georgia text-[#919090]">Swimming pool, Jacuzzi, and open-air gym on sun deck</p>
                         </div>
                     </div>
@@ -274,14 +274,14 @@ export default function RoyalPrincess() {
             <section className="py-16 px-6 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             Cruise Itineraries
                         </h2>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8">
                         {/* 4 Nights Luxor to Aswan */}
-                        <div className="bg-gradient-to-br from-[#5A5248] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up">
+                        <div className="bg-gradient-to-br from-[#a68b76] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up">
                             <h3 className="text-3xl font-bold font-georgia mb-6">4 Nights / 5 Days</h3>
                             <p className="text-xl font-georgia mb-6">Luxor to Aswan</p>
                             <div className="space-y-4 font-georgia">
@@ -309,9 +309,9 @@ export default function RoyalPrincess() {
                         </div>
 
                         {/* 3 Nights Aswan to Luxor */}
-                        <div className="bg-white border-2 border-[#5A5248] rounded-xl p-8" data-aos="fade-up" data-aos-delay="200">
-                            <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-6">3 Nights / 4 Days</h3>
-                            <p className="text-xl font-georgia text-[#5A5248] mb-6">Aswan to Luxor</p>
+                        <div className="bg-white border-2 border-[#a68b76] rounded-xl p-8" data-aos="fade-up" data-aos-delay="200">
+                            <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-6">3 Nights / 4 Days</h3>
+                            <p className="text-xl font-georgia text-[#a68b76] mb-6">Aswan to Luxor</p>
                             <div className="space-y-4 font-georgia text-[#919090]">
                                 <div>
                                     <h4 className="font-semibold mb-2">Day 1 (Fri): Aswan</h4>
@@ -355,14 +355,14 @@ export default function RoyalPrincess() {
                     <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                         <Link 
                             to="/contact-us"
-                            className="bg-white text-[#5A5248] px-12 py-4 text-xl font-semibold font-georgia rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 inline-block"
+                            className="bg-white text-[#a68b76] px-12 py-4 text-xl font-semibold font-georgia rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 inline-block"
                             data-aos="fade-up" data-aos-delay="400"
                         >
                             Book Your Cruise
                         </Link>
                         <Link 
                             to="/royal-princess-gallery"
-                            className="bg-transparent border-2 border-white text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:bg-white hover:text-[#5A5248] transition-all duration-300 inline-block"
+                            className="bg-transparent border-2 border-white text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:bg-white hover:text-[#a68b76] transition-all duration-300 inline-block"
                             data-aos="fade-up" data-aos-delay="500"
                         >
                             View Gallery

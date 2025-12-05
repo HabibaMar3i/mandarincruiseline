@@ -6,7 +6,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --primary-color: #5A5248;
+  --primary-color: #a68b76;
 }
 
 .font-georgia {

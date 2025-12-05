@@ -26,7 +26,7 @@ export default function AboutUs() {
             <section className="py-16 px-6 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             Our Dedicated Crew
                         </h2>
                         <p className="text-lg md:text-xl font-georgia text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
@@ -39,22 +39,22 @@ export default function AboutUs() {
                             <img src="/WhatsApp Image 2025-12-04 at 11.21.10 PM.jpeg" alt="Our Professional Crew" className="w-full rounded-xl shadow-lg" />
                         </div>
                         <div data-aos="fade-up" data-aos-delay="200">
-                            <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-6">Professional Excellence</h3>
+                            <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-6">Professional Excellence</h3>
                             <p className="text-lg font-georgia text-[#919090] mb-6 leading-relaxed">
                                 Our experienced crew members are the heart of your cruise experience. With years of expertise in hospitality and navigation, they ensure every moment of your journey is memorable.
                             </p>
                             <ul className="space-y-3 font-georgia text-[#919090]">
-                                <li className="flex items-center"><i className="fas fa-check-circle text-[#5A5248] mr-3"></i>100+ professional crew members</li>
-                                <li className="flex items-center"><i className="fas fa-check-circle text-[#5A5248] mr-3"></i>Multilingual hospitality team</li>
-                                <li className="flex items-center"><i className="fas fa-check-circle text-[#5A5248] mr-3"></i>Expert navigation and safety</li>
-                                <li className="flex items-center"><i className="fas fa-check-circle text-[#5A5248] mr-3"></i>24/7 guest services</li>
+                                <li className="flex items-center"><i className="fas fa-check-circle text-[#a68b76] mr-3"></i>100+ professional crew members</li>
+                                <li className="flex items-center"><i className="fas fa-check-circle text-[#a68b76] mr-3"></i>Multilingual hospitality team</li>
+                                <li className="flex items-center"><i className="fas fa-check-circle text-[#a68b76] mr-3"></i>Expert navigation and safety</li>
+                                <li className="flex items-center"><i className="fas fa-check-circle text-[#a68b76] mr-3"></i>24/7 guest services</li>
                             </ul>
                         </div>
                     </div>
 
                     {/* Crew Video */}
                     <div className="text-center" data-aos="fade-up">
-                        <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-8">Meet Our Team</h3>
+                        <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-8">Meet Our Team</h3>
                         <div className="max-w-md mx-auto rounded-xl overflow-hidden shadow-2xl">
                             <video 
                                 controls 
@@ -90,10 +90,10 @@ export default function AboutUs() {
                     </p>
                     
                     <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
-                        <a href="/royal-princess" className="bg-[#5A5248] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
+                        <a href="/royal-princess" className="bg-[#a68b76] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
                             Royal Princess
                         </a>
-                        <a href="/grand-mandarin" className="bg-white text-[#5A5248] px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
+                        <a href="/grand-mandarin" className="bg-white text-[#a68b76] px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
                             Grand Mandarin
                         </a>
                     </div>

@@ -22,7 +22,7 @@ export default function GrandMandarin() {
                         </p>
                         <Link 
                             to="/contact-us"
-                            className="bg-[#5A5248] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block"
+                            className="bg-[#a68b76] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block"
                             data-aos="fade-up" data-aos-delay="400"
                         >
                             Book Now
@@ -35,7 +35,7 @@ export default function GrandMandarin() {
             <section className="py-16 px-6 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             Superior Deluxe Experience
                         </h2>
                         <p className="text-lg md:text-xl font-georgia text-[#919090] leading-relaxed max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
@@ -48,7 +48,7 @@ export default function GrandMandarin() {
                             <img src="/GrandMandarin/02.webp" alt="Grand Mandarin Exterior" className="w-full rounded-xl shadow-lg" />
                         </div>
                         <div data-aos="fade-up" data-aos-delay="200">
-                            <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-6">Technical Specifications</h3>
+                            <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-6">Technical Specifications</h3>
                             <div className="space-y-4 font-georgia text-[#919090]">
                                 <div className="flex justify-between border-b pb-2">
                                     <span className="font-semibold">Construction Year:</span>
@@ -92,7 +92,7 @@ export default function GrandMandarin() {
             <section className="py-16 px-6">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             Luxurious Accommodations
                         </h2>
                     </div>
@@ -104,7 +104,7 @@ export default function GrandMandarin() {
                                 <img src="/GrandMandarin/03.webp" alt="Grand Mandarin Junior Suite" className="w-full h-full object-cover" />
                             </div>
                             <div className="p-8">
-                                <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Junior Suites</h3>
+                                <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-4">Junior Suites</h3>
                                 <p className="text-[#919090] font-georgia mb-4">62 Junior Suites (21 sqm each)</p>
                                 <ul className="space-y-2 text-[#919090] font-georgia">
                                     <li>• Flat screen TV & internal telephone</li>
@@ -124,7 +124,7 @@ export default function GrandMandarin() {
                                 <img src="/GrandMandarin/04.webp" alt="Grand Mandarin Royal Suite" className="w-full h-full object-cover" />
                             </div>
                             <div className="p-8">
-                                <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Royal Suites</h3>
+                                <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-4">Royal Suites</h3>
                                 <p className="text-[#919090] font-georgia mb-4">2 Royal Suites: "Nefertiti" & "Cleopatra" (30 sqm each)</p>
                                 <ul className="space-y-2 text-[#919090] font-georgia">
                                     <li>• Flat screen TV, phone, AC, safe</li>
@@ -144,14 +144,14 @@ export default function GrandMandarin() {
             <section className="py-16 px-6 bg-white">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             5 Decks of Excellence
                         </h2>
                     </div>
 
                     <div className="space-y-8">
                         {/* Sun Deck */}
-                        <div className="bg-gradient-to-r from-[#5A5248] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up">
+                        <div className="bg-gradient-to-r from-[#a68b76] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">Sun Deck (E)</h3>
@@ -167,11 +167,11 @@ export default function GrandMandarin() {
                         </div>
 
                         {/* Tokyo Bar Deck */}
-                        <div className="bg-white border-2 border-[#5A5248] rounded-xl p-8" data-aos="fade-up" data-aos-delay="100">
+                        <div className="bg-white border-2 border-[#a68b76] rounded-xl p-8" data-aos="fade-up" data-aos-delay="100">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <img src="/GrandMandarin/06.webp" alt="Tokyo Bar" className="rounded-lg" />
                                 <div>
-                                    <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">Tokyo Bar Deck (D)</h3>
+                                    <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-4">Tokyo Bar Deck (D)</h3>
                                     <ul className="space-y-2 font-georgia text-[#919090]">
                                         <li>• Vibrant Tokyo Bar with curated cocktails</li>
                                         <li>• Weekly Oriental Party venue</li>
@@ -183,7 +183,7 @@ export default function GrandMandarin() {
                         </div>
 
                         {/* The Mezzanine */}
-                        <div className="bg-gradient-to-r from-[#5A5248] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up" data-aos-delay="200">
+                        <div className="bg-gradient-to-r from-[#a68b76] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up" data-aos-delay="200">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">The Mezzanine (C)</h3>
@@ -199,11 +199,11 @@ export default function GrandMandarin() {
                         </div>
 
                         {/* The Reception */}
-                        <div className="bg-white border-2 border-[#5A5248] rounded-xl p-8" data-aos="fade-up" data-aos-delay="300">
+                        <div className="bg-white border-2 border-[#a68b76] rounded-xl p-8" data-aos="fade-up" data-aos-delay="300">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <img src="/GrandMandarin/08.webp" alt="Reception" className="rounded-lg" />
                                 <div>
-                                    <h3 className="text-3xl font-bold font-georgia text-[#5A5248] mb-4">The Reception (B)</h3>
+                                    <h3 className="text-3xl font-bold font-georgia text-[#a68b76] mb-4">The Reception (B)</h3>
                                     <ul className="space-y-2 font-georgia text-[#919090]">
                                         <li>• Check-in counter & luxurious entrance</li>
                                         <li>• Grand piano for entertainment</li>
@@ -215,7 +215,7 @@ export default function GrandMandarin() {
                         </div>
 
                         {/* The Gallery */}
-                        <div className="bg-gradient-to-r from-[#5A5248] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up" data-aos-delay="400">
+                        <div className="bg-gradient-to-r from-[#a68b76] to-[#AA8C77] rounded-xl p-8 text-white" data-aos="fade-up" data-aos-delay="400">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
                                 <div>
                                     <h3 className="text-3xl font-bold font-georgia mb-4">The Gallery (A)</h3>
@@ -237,7 +237,7 @@ export default function GrandMandarin() {
             <section className="py-16 px-6">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                             Dining & Entertainment
                         </h2>
                     </div>
@@ -245,17 +245,17 @@ export default function GrandMandarin() {
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="text-center" data-aos="fade-up">
                             <img src="/GrandMandarin/10.webp" alt="Dining" className="w-full h-48 object-cover rounded-xl mb-4" />
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Gourmet Dining</h3>
+                            <h3 className="text-2xl font-bold font-georgia text-[#a68b76] mb-2">Gourmet Dining</h3>
                             <p className="font-georgia text-[#919090]">Open buffet for all meals, themed set menu weekly, complimentary tea time</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="100">
                             <img src="/GrandMandarin/11.webp" alt="Entertainment" className="w-full h-48 object-cover rounded-xl mb-4" />
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Live Entertainment</h3>
+                            <h3 className="text-2xl font-bold font-georgia text-[#a68b76] mb-2">Live Entertainment</h3>
                             <p className="font-georgia text-[#919090]">Oriental galabia party, belly dancer, daily music & entertainment</p>
                         </div>
                         <div className="text-center" data-aos="fade-up" data-aos-delay="200">
                             <img src="/GrandMandarin/12.webp" alt="Facilities" className="w-full h-48 object-cover rounded-xl mb-4" />
-                            <h3 className="text-2xl font-bold font-georgia text-[#5A5248] mb-2">Premium Facilities</h3>
+                            <h3 className="text-2xl font-bold font-georgia text-[#a68b76] mb-2">Premium Facilities</h3>
                             <p className="font-georgia text-[#919090">Central AC system, credit cards accepted, infirmary on board, Cristal certified</p>
                         </div>
                     </div>
@@ -266,7 +266,7 @@ export default function GrandMandarin() {
             <section className="py-16 px-6 bg-white">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#5A5248] mb-4" data-aos="fade-up">
+                        <h2 className="text-4xl md:text-5xl font-bold font-georgia text-[#a68b76] mb-4" data-aos="fade-up">
                             Grand Mandarin Gallery
                         </h2>
                     </div>
@@ -292,7 +292,7 @@ export default function GrandMandarin() {
                     <div className="text-center mt-12">
                         <Link 
                             to="/grand-mandarin-gallery"
-                            className="bg-[#5A5248] text-white px-8 py-3 text-lg font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block"
+                            className="bg-[#a68b76] text-white px-8 py-3 text-lg font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block"
                             data-aos="fade-up"
                         >
                             View Full Gallery
@@ -321,14 +321,14 @@ export default function GrandMandarin() {
                     <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                         <Link 
                             to="/contact-us"
-                            className="bg-white text-[#5A5248] px-12 py-4 text-xl font-semibold font-georgia rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 inline-block"
+                            className="bg-white text-[#a68b76] px-12 py-4 text-xl font-semibold font-georgia rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 inline-block"
                             data-aos="fade-up" data-aos-delay="400"
                         >
                             Book Your Cruise
                         </Link>
                         <Link 
                             to="/grand-mandarin-gallery"
-                            className="bg-transparent border-2 border-white text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:bg-white hover:text-[#5A5248] transition-all duration-300 inline-block"
+                            className="bg-transparent border-2 border-white text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:bg-white hover:text-[#a68b76] transition-all duration-300 inline-block"
                             data-aos="fade-up" data-aos-delay="500"
                         >
                             View Gallery

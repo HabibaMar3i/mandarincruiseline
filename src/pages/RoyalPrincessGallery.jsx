@@ -108,7 +108,7 @@ export default function RoyalPrincessGallery() {
             <section className="py-16 px-6">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#5A5248] mb-8">
+                        <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#a68b76] mb-8">
                             Video Gallery
                         </h2>
                         <p className="text-lg font-georgia text-[#919090]">
@@ -129,7 +129,7 @@ export default function RoyalPrincessGallery() {
                                     allowFullScreen
                                 ></iframe>
                             </div>
-                            <h3 className="text-lg font-semibold font-georgia text-[#5A5248] mt-4 text-center">Royal Princess Tour</h3>
+                            <h3 className="text-lg font-semibold font-georgia text-[#a68b76] mt-4 text-center">Royal Princess Tour</h3>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default function RoyalPrincessGallery() {
             {/* PDF Downloads Section */}
             <section className="py-16 px-6 bg-white">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#5A5248] mb-8" data-aos="fade-up">
+                    <h2 className="text-3xl md:text-4xl font-bold font-georgia text-[#a68b76] mb-8" data-aos="fade-up">
                         Download Gallery
                     </h2>
                     <p className="text-lg font-georgia text-[#919090] mb-8" data-aos="fade-up" data-aos-delay="200">
@@ -150,7 +150,7 @@ export default function RoyalPrincessGallery() {
                         <a
                             href="/Royal_Princess_Photos_PDF.pdf"
                             download="Royal_Princess_Photos_PDF.pdf"
-                            className="bg-[#5A5248] text-white px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-flex items-center"
+                            className="bg-[#a68b76] text-white px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-flex items-center"
                         >
                             <i className="fas fa-download mr-2"></i>Download PDF
                         </a>
@@ -168,7 +168,7 @@ export default function RoyalPrincessGallery() {
                                     alert('PDF link copied to clipboard!');
                                 }
                             }}
-                            className="bg-white text-[#5A5248] border-2 border-[#5A5248] px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:bg-[#5A5248] hover:text-white transition-all duration-300 inline-flex items-center"
+                            className="bg-white text-[#a68b76] border-2 border-[#a68b76] px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:bg-[#a68b76] hover:text-white transition-all duration-300 inline-flex items-center"
                         >
                             <i className="fas fa-share mr-2"></i>Share Gallery
                         </button>
@@ -195,10 +195,10 @@ export default function RoyalPrincessGallery() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
-                        <a href="/royal-princess" className="bg-[#5A5248] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
+                        <a href="/royal-princess" className="bg-[#a68b76] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
                             Learn More
                         </a>
-                        <a href="mailto:info@mandarincruiseline.com" className="bg-white text-[#5A5248] px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
+                        <a href="mailto:info@mandarincruiseline.com" className="bg-white text-[#a68b76] px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
                             Book Now
                         </a>
                     </div>
