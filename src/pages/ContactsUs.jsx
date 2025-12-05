@@ -19,10 +19,10 @@ export default function ContactUs() {
                             Ready to embark on your luxury Nile cruise adventure?
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
-                            <a href="tel:0223950572" className="bg-[#a68b76] text-white px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
+                            <a href="tel:+20223950572" className="bg-[#a68b76] text-white px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
                                 <i className="fas fa-phone mr-2"></i>Call Now
                             </a>
-                            <a href="mailto:info@mandarincruise.com" className="bg-white text-[#a68b76] px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
+                            <a href="mailto:info@mandarincruiseline.com" className="bg-white text-[#a68b76] px-8 py-4 text-lg font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
                                 <i className="fas fa-envelope mr-2"></i>Email Us
                             </a>
                         </div>
@@ -50,11 +50,11 @@ export default function ContactUs() {
                             </div>
                             <h3 className="text-2xl font-bold font-georgia text-[#a68b76] mb-4">Call Us</h3>
                             <p className="font-georgia text-[#919090] mb-4">
-                                0223950572<br />
-                                0223950693<br />
-                                0223954049<br />
-                                0223927996<br />
-                                0223927363
+                                +2 0223950572<br />
+                                +2 0223950693<br />
+                                +2 0223954049<br />
+                                +2 0223927996<br />
+                                +2 0223927363
                             </p>
                             <p className="text-sm font-georgia text-[#a68b76] font-semibold">Available 24/7</p>
                         </div>
@@ -159,11 +159,11 @@ export default function ContactUs() {
                                             <i className="fas fa-phone mr-2"></i>Phone & Fax
                                         </h3>
                                         <p className="font-georgia opacity-90">
-                                            0223950572<br />
-                                            0223950693<br />
-                                            0223954049<br />
-                                            0223927996<br />
-                                            0223927363
+                                            +2 0223950572<br />
+                                            +2 0223950693<br />
+                                            +2 0223954049<br />
+                                            +2 0223927996<br />
+                                            +2 0223927363
                                         </p>
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@ export default function ContactUs() {
                                 <div className="space-y-6">
                                     <div>
                                         <h3 className="text-xl font-semibold font-georgia mb-2">
-                                            <i className="fas fa-envelope mr-2"></i>Email Addresses
+                                            <i className="fas fa-envelope mr-2"></i>Email Address
                                         </h3>
                                         <p className="font-georgia opacity-90">
                                             info@mandarincruiseline.com<br />
@@ -182,10 +182,10 @@ export default function ContactUs() {
                                     
                                     <div>
                                         <h3 className="text-xl font-semibold font-georgia mb-2">
-                                            <i className="fas fa-globe mr-2"></i>Websites
+                                            <i className="fas fa-globe mr-2"></i>Website
                                         </h3>
                                         <p className="font-georgia opacity-90">
-                                            www.mandarincruise.com<br />
+                                            https://mandarincruiseline.com<br />
                                         </p>
                                     </div>
                                 </div>
@@ -222,10 +222,10 @@ export default function ContactUs() {
                     </p>
                     
                     <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
-                        <a href="tel:0223950572" className="bg-[#a68b76] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
+                        <a href="tel:+20223950572" className="bg-[#a68b76] text-white px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:opacity-90 transition-all duration-300 inline-block">
                             <i className="fas fa-phone mr-2"></i>Call Now
                         </a>
-                        <a href="mailto:info@mandarincruise.com" className="bg-white text-[#a68b76] px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
+                        <a href="mailto:info@mandarincruiseline.com" className="bg-white text-[#a68b76] px-12 py-4 text-xl font-semibold font-georgia rounded-full hover:shadow-lg transition-all duration-300 inline-block">
                             <i className="fas fa-envelope mr-2"></i>Send Email
                         </a>
                     </div>

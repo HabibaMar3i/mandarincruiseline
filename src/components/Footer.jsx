@@ -34,11 +34,11 @@ const Footer = () => {
                             <div className="flex items-start">
                                 <i className="fas fa-phone mr-3 mt-1"></i>
                                 <div>
-                                    <div>0223950572</div>
-                                    <div>0223950693</div>
-                                    <div>0223954049</div>
-                                    <div>0223927996</div>
-                                    <div>0223927363</div>
+                                    <div>+2 0223950572</div>
+                                    <div>+2 0223950693</div>
+                                    <div>+2 0223954049</div>
+                                    <div>+2 0223927996</div>
+                                    <div>+2 0223927363</div>
                                 </div>
                             </div>
                             <div className="flex items-center">
